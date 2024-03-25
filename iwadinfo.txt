@@ -1,0 +1,7 @@
+iwad
+{
+	Name = "In Pursuit of Greed"
+	Autoname = "gzgreed"
+	BannerColors = "a8 00 00", "a8 a8 a8"
+	IgnoreTitlePatches = 1
+}
