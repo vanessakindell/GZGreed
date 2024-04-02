@@ -1,5 +1,5 @@
 # GZGreed
-A port of In Pursuit of Greed to the GZDoom engine
+A port of In Pursuit of Greed to the GZDoom engine.
 
 Project is in progress but is not yet playable.
 

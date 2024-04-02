@@ -50,7 +50,7 @@ class Prisoner : Actor
 		PRSN K 4;
 		PRSN L 4;
 		PRSN M -1;
-		stop
+		stop;
 	Raise:
 		PRSN LKJIHGF 5;
 		goto See;
