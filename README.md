@@ -1,3 +1,5 @@
+![logo](graphics/LOGO4ROB.PNG)
+
 # GZGreed
 A port of In Pursuit of Greed to the GZDoom engine.
 
