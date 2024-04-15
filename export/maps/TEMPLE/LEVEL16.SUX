@@ -1,0 +1,147 @@
+rem ****************Temple 8 - Inner Sanctum********************
+rem forceload pst 56
+rem forceload pss 56
+forceload veek 56
+forceload wiz 56
+forceload tboss 56
+rem ****************level specifics*****************************
+levelscore 150000
+bonustime  25
+primary         0 100000 1 8
+secondary       0 10000 4 39
+backdrop backdrop2
+rem ************************************************************
+sprite 47 7 53 0 0 5
+sprite 61 7 53 0 0 5
+sprite 47 20 53 0 0 5
+sprite 61 20 53 0 0 5
+rem ************************************************************
+wallswitch 32 32 1
+mapzone 23 9 23 10 1 0 2 0 255 1
+wallswitch 4 26 2
+mapzone 48 8 48 8 2 0 0 0 255 1
+mapzone 48 8 48 8 2 0 2 0 255 1
+wallswitch 3 2 3
+mapzone 61 19 61 19 3 0 2 0 255 1
+mapzone 60 20 60 20 3 0 0 0 255 1
+wallswitch 13 31 4
+mapzone 48 20 48 20 4 0 0 0 255 1
+mapzone 48 19 48 19 4 0 2 0 255 1
+trigger 55 35 5
+mapzone 55 35 55 35 5 0 8 2 5 1
+spawnsound 55 35 5 45 1
+spawnsound 55 35 5 45 1
+mapzone 61 8 61 8 5 0 2 0 255 1
+mapzone 60 8 60 8 5 0 0 0 255 1
+trigger 47 7 6
+spawntrigger 30 8 6 7 1
+spawn 30 8 7 140 0 0 5 1
+mapzone 29 34 29 35 7 0 2 0 255 1
+rem mapzone 30 8 30 8 7 0 8 5 5 1
+spawnsound 30 8 7 45 1
+spawnsound 30 8 7 45 1
+trigger 47 20 8
+spawntrigger 34 8 8 9 1 
+spawn 34 8 9 140 0 0 5 1
+mapzone 1 7 1 7 9 0 0 0 255 1
+rem mapzone 34 8 34 8 9 0 8 5 5 1
+spawnsound 34 8 9 45 1
+spawnsound 34 8 9 45 1
+trigger 61 20 10
+spawntrigger 30 12 10 11 1
+spawn 30 12 11 140 0 0 5 1
+mapzone 36 34 36 35 11 0 2 0 255 1
+rem mapzone 30 12 30 12 11 0 8 5 5 1
+spawnsound 30 12 11 45 1
+spawnsound 30 12 11 45 1
+trigger 61 7 12
+spawntrigger 34 12 12 13 1
+spawn 34 12 13 140 0 0 5 1
+mapzone 34 12 34 12 13 0 8 5 5 1
+spawnsound 34 12 13 45 1
+spawnsound 34 12 13 45 1
+mapzone 25 4 26 15 13 14 8 90 20 1
+mapzone 30 8 34 12 14 15 8 2 1 1
+mapzone 31 9 33 11 15 0 4 108 255 1
+spawnareatrigger 27 4 37 15 15 201 0
+spawn 32 10 201 38 202 0 5 0
+spawn 35 12 202 51 0 0 5 0
+rem ********************Item Generators******************
+sprite 38 35 101 0 0 5
+sprite 26 35 100 0 0 5
+sprite 26  2 100 0 0 5
+sprite 38  2 101 0 0 5
+sprite 62 13 100 0 0 5
+sprite 62 14 101 0 0 5
+sprite  9  2 101 0 0 5
+sprite 13  7 100 0 0 5
+rem ***********************Monsters**********************
+sprite 53 33 34 0 0 5
+sprite 49 36 36 0 1 5
+sprite 55 31 36 0 1 5
+sprite 54 26 36 0 3 5
+sprite 46 25 36 0 2 5
+sprite 41 24 36 0 3 5 
+sprite 41 22 36 0 0 5
+sprite 32 33 36 0 0 5
+sprite 29 26 36 0 0 5
+sprite 35 26 36 0 2 5
+sprite 20 27 36 0 2 5
+sprite 19 31 36 0 4 5
+sprite 14 26 36 0 0 5
+sprite 14 31 34 0 1 5
+sprite 35 16 37 0 0 5
+sprite 29 16 37 0 1 5
+rem sprite 31 13 34 0 2 5
+rem sprite 32  6 34 0 0 5
+sprite 39  9 37 0 1 5
+sprite 38  6 37 0 0 5
+sprite 33  3 37 0 2 5
+sprite 30  3 37 0 0 5
+sprite 20 13 36 0 1 5
+sprite 20  6 36 0 2 5
+sprite 15  6 36 0 0 5
+sprite 15 13 36 0 0 5
+sprite 11  7 36 0 3 5
+sprite 11 12 36 0 4 5
+sprite  1 10 37 0 0 5
+sprite  2  5 36 0 0 5
+sprite  5  5 34 0 2 5
+sprite  4  3 36 0 2 5
+sprite  9  3 36 0 4 5 
+sprite  3 17 37 0 3 5
+sprite  5 14 37 0 0 5
+sprite  9 17 36 0 0 5
+sprite  8 22 36 0 1 5
+sprite  4 20 36 0 2 5
+sprite  7 24 36 0 3 5
+sprite  5 24 34 0 1 5
+sprite 49 18 36 0 3 5
+sprite 59 17 36 0 4 5
+sprite 55 14 36 0 2 5
+sprite 53 14 36 0 1 5
+sprite 49  9 36 0 0 5
+sprite 59  9 36 0 0 5
+rem *********************Monster Generators***************
+areatrigger 31 20 33 20 101
+areatrigger 5 9 5 10 102
+areatrigger 24 22 24 23 103
+spawn 39 22 104 213 0 1 5 0
+spawn 35 31 102 213 0 2 5 0
+spawn 29 31 102 213 0 0 5 0
+spawn 32 35 102 213 0 4 5 0
+spawn 39 16 102 213 0 0 5 0
+spawn 36  2 102 213 0 2 5 0
+rem spawn 25  6 102 213 0 4 5 0
+spawn 27 10 102 212 0 1 5 0
+rem spawn 35 13 102 212 0 3 5 0
+spawn 54  9 101 213 0 0 5 0
+spawn 59 13 101 213 0 4 5 0
+spawn 54 17 101 213 0 2 5 0
+spawn 49 13 101 213 0 3 5 0
+spawn 11  7 103 213 0 1 5 0
+spawn 18 10 103 213 0 3 5 0
+spawn  5 20 103 213 0 1 5 0
+
+end of file
+

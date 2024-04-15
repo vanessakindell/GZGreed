@@ -1,0 +1,158 @@
+rem ***** command level *****************
+forceload trooper 56
+forceload guard 56
+forceload pboss 48
+rem ******level specifics****************
+levelscore      130000
+bonustime       35
+primary         0 75000 1 3
+secondary       0 5000 3 35
+secondary       1 7000 3 36
+rem ********secondary placement**************************
+sprite 18  1 53 0 0 5
+sprite 20 26 54 0 0 5
+sprite 45 24 53 0 0 5
+sprite 39 48 54 0 0 5
+sprite 51  3 53 0 0 5
+sprite 39 58 54 0 0 5
+rem *************************************
+rem *******open big box******************
+mapzone 35 17 39 21 1 0 8 0 4 0
+rem trigger 41 22 1
+mapzone 35 17 39 21 1 2 9 196 4 0
+mapzone 35 17 39 18 2 0 9 255 4 0
+mapzone 35 19 36 20 2 0 9 255 4 0
+mapzone 39 19 39 20 2 0 9 255 4 0
+mapzone 35 21 39 21 2 0 9 255 4 0
+rem *************************************
+rem ******* water piston ****************
+mapzone 40 48 41 48 0 300 9 96 4 0
+mapzone 39 47 42 49 300 304 9 128 4 0
+mapzone 39 47 42 49 304 305 9 96 4 0
+mapzone 40 48 41 48 305 306 9 64 4 0
+mapzone 40 48 41 48 306 303 9 96 4 0
+rem *************************************
+rem ******** lower right small passage opener **********
+mapzone 40 55 40 57 7 8 8 0 4 0
+mapzone 40 55 40 57 7 0 9 128 4 0
+areatrigger 38 55 38 56 7
+rem **************************************************
+rem **********upper right pocket slope openers
+areatrigger 57 11 57 12 10
+mapzone 56 11 56 13 10 11 8 128 4 0
+mapzone 56 11 56 13 10 0  9 255 4 0
+mapzone 55 11 55 12 11 0  14 20 18 0
+areatrigger 57 17 57 18 13
+mapzone 56 17 56 19 13 14 8 128 4 0
+mapzone 56 17 56 19 13 0  9 255 4 0
+mapzone 55 17 55 18 14 0  14 20 18 0
+rem *******************************************
+rem **********right side - light piston **************
+mapzone 47 22 48 23 0 318  8 35 4 0
+mapzone 47 22 47 22 318 319 14 0 4 0
+mapzone 47 22 47 22 319 320 14 110 90 0
+mapzone 47 22 48 23 320 321 8 0 4 0
+mapzone 47 22 48 23 321 318 8 35 4 0
+rem ***************************************************
+wallswitch 19 49 80
+mapzone 58 20 59 20 80 0 0 0 255 1
+wallswitch 45 28 201
+spawn 40 17 201 84 202 0 5 0
+mapzone 29 18 29 18 202 0 0 0 255 1
+mapzone 29 21 29 21 202 0 0 0 255 1
+trigger 29 19 90
+mapzone 19 14 19 15 90 0 2 0 255 1
+mapzone 29 19 29 19 90 0 8 5 5 1
+wallswitch 6 45 203
+spawn 22 41 203 84 204 0 5 0
+mapzone 35 10 35 10 204 0 0 0 255 1
+trigger 37 13 100
+mapzone 37 13 37 13 100 0 8 5 5 1
+mapzone 57 31 58 32 100 0 0 0 255 1
+mapzone 37 51 37 51 100 0 0 0 255 1
+wallswitch 54 40 205
+spawn   42 42 205 84 206 0 5 0
+mapzone 26 15 27 15 206 0 0 0 255 1
+trigger 29 13 110
+mapzone 29 13 29 13 110 0 8 5 5 1
+mapzone 31 39 33 42 110 0 0 0 255 1
+mapzone 31 39 34 41 110 0 2 0 255 1
+trigger 32 40 115
+rem mapzone 32 50 32 50 115 0 8 5 5 1
+rem *********************item generator**********************
+sprite 54 56 101 0 0 5
+sprite 27 36 101 0 0 5
+sprite 5 28  101 0 0 5
+sprite 60 12 101 0 0 5
+sprite 52 35 100 0 0 5
+sprite 46 38 100 0 0 5
+sprite 32  1 100 0 0 5
+sprite 2  14 100 0 0 5
+sprite 19 46 100 0 0 5
+rem *************************monsters************************
+rem *********************difficulty 0************************
+sprite 30 60 88 0 0 5
+sprite 37 61 88 0 0 5
+sprite 51 57 91 0 0 5
+sprite 57 57 91 0 0 5
+sprite 61 34 90 0 0 5
+sprite 52 34 90 0 0 5
+sprite 50 40 91 0 0 5
+sprite 55 39 91 0 0 5
+sprite 48 27 90 0 0 5
+sprite 54 21 88 0 0 5
+sprite 59 2  88 0 0 5
+sprite 46 9  90 0 0 5
+sprite 36 12 88 0 0 5
+sprite 29 14 88 0 0 5
+sprite 28 19 88 0 0 5
+sprite 29 25 90 0 0 5
+sprite 23 32 90 0 0 5
+sprite 36 34 90 0 0 5
+sprite 43 35 90 0 0 5
+sprite 27 44 90 0 0 5
+sprite 20 49 90 0 0 5
+sprite 22 2  90 0 0 5
+sprite 11 5  88 0 0 5
+sprite 5  8  90 0 0 5
+sprite 11 18 90 0 0 5
+sprite 4  32 91 0 0 5
+sprite 11 36 90 0 0 5
+sprite 6  39 90 0 0 5
+sprite 60 16 90 0 0 5
+sprite 47 50 88 0 0 5
+sprite 29  5 88 0 0 5
+areatrigger 48 14 48 15 150 
+spawn 48 15 150 208 0 0 5 0
+areatrigger 25 26 40 26 151
+spawn 42 43 151 208 0 0 5 0
+areatrigger 59 39 60 39 152
+spawn 58 34 152 208 0 0 5 0
+areatrigger 9 23 10 23 153
+spawn 8 16 153 208 0 0 5 0
+rem ***********************difficulty 2********************
+sprite 7  45 90 0 2 5 
+sprite 2  36 90 0 2 5
+sprite 15 28 91 0 2 5
+sprite 4  18 90 0 2 5
+sprite 5   3 90 0 2 5
+sprite 14 11 90 0 2 5
+sprite 38 5  90 0 2 5
+sprite 36 25 90 0 2 5
+sprite 35 49 90 0 2 5
+sprite 57 62 90 0 2 5
+sprite 51 62 88 0 2 5
+sprite 60 11 90 0 2 5
+sprite 52 10 90 0 2 5
+sprite 43 53 90 0 2 5
+spawn  8  33 153 208 0 2 5 0
+spawn  27 10 150 207 0 2 5 0
+spawn  36 22 151 208 0 2 5 0
+spawn  55 28 152 207 0 2 5 0
+spawn  25 33 151 208 0 2 5 0
+spawn  32 59 151 207 0 3 5 0
+spawn  42 43 151 208 0 3 5 0
+sprite 61 33 88 0 4 5
+sprite 8 7   88 0 4 5
+
+end of file

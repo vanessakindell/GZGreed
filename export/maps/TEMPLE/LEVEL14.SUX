@@ -1,0 +1,200 @@
+rem *****************Temple - Priest Village *****************
+forceload pst 56
+forceload pss 56
+forceload veek 56
+forceload wiz 56
+rem ****************level specifics***************************
+levelscore      85000
+bonustime       40
+primary         0 50000 1 4
+secondary       0 5000 2 20
+secondary       1 7500 2 21
+backdrop backdrop2
+rem **********************************************************
+sprite 1 53 53 0 0 5
+sprite 27 42 54 0 0 5
+sprite 17 8 54 0 0 5
+sprite 43 60 53 0 0 5
+rem **********************************************************
+wallswitch 12 45 1
+mapzone 30 54 30 55 1 0 8 30 5 1
+mapzone 33 51 34 51 1 0 8 30 5 1
+mapzone 37 54 37 55 1 0 8 30 5 1
+mapzone 33 58 34 58 1 0 8 30 5 1
+wallswitch 33 26 5
+mapzone 30 20 30 21 5 0 2 0 255 1
+wallswitch 37 26 10
+mapzone 11 53 11 53 10 0 8 5 5 1
+wallswitch 41 26 15
+mapzone 44 43 44 45 15 0 2 0 255 1
+wallswitch 10 53 20
+mapzone 37 26 37 26 20 0 8 5 5 1
+wallswitch 19 31 25
+mapzone 41 26 41 26 25 0 8 5 5 1
+rem ***********************Item Generators*********************
+sprite 45 56 101 0 0 5
+sprite 55 34 100 0 0 5
+sprite 15 48 100 0 0 5
+sprite  5 32 100 0 0 5
+sprite  2 50 101 0 0 5
+sprite 32 35 101 0 0 5
+sprite 43 14 100 0 0 5
+sprite 39  2 101 0 0 5
+sprite 21  1 100 0 0 5
+rem **********************Monsters****************************
+sprite 52 44 86 0 3 5
+sprite 50 44 86 0 0 5
+sprite 48 44 86 0 4 5
+sprite 53 42 86 0 0 5
+sprite 51 42 86 0 0 5
+sprite 49 42 86 0 2 5
+sprite 44 42 96 0 0 5
+sprite 44 45 96 0 2 5
+sprite 61 31 96 0 0 5
+sprite 53 27 86 0 3 5
+sprite 52 26 86 0 0 5
+sprite 56 25 86 0 0 5
+sprite 56 27 86 0 2 5
+sprite 42 28 96 0 3 5
+sprite 38 29 86 0 0 5
+sprite 38 33 36 0 0 5
+sprite 37 36 36 0 3 5
+sprite 41 41 96 0 0 5
+sprite 32 39 96 0 1 5
+sprite 33 30 96 0 0 5
+sprite 21 30 87 0 0 5
+sprite 21 32 87 0 3 5
+sprite 33 48 86 0 0 5
+sprite 39 49 36 0 3 5
+sprite 28 60 36 0 2 5
+sprite 25 53 96 0 0 5
+sprite 31 53 34 0 0 5
+sprite 36 53 34 0 2 5
+sprite 36 56 34 0 0 5
+sprite 32 57 34 0 4 5
+sprite 47 21 36 0 2 5
+sprite 62 21 86 0 3 5
+sprite 62 17 86 0 0 5
+sprite 56 19 36 0 2 5
+sprite 56 16 36 0 0 5
+sprite 58 11 86 0 0 5
+sprite 59 11 86 0 2 5
+sprite 60 11 86 0 0 5
+sprite 61 11 86 0 4 5
+sprite 60  3 96 0 0 5
+sprite 58  2 86 0 3 5
+sprite 54  3 96 0 1 5
+sprite 47  2 97 0 2 5
+sprite 51  4 97 0 0 5
+sprite 43  4 37 0 2 5
+sprite 44  5 97 0 0 5
+sprite 32  5 86 0 0 5
+sprite 32  7 86 0 0 5
+sprite 33  8 86 0 1 5
+sprite 34  7 86 0 0 5
+sprite 35  8 86 0 2 5
+sprite 36  8 86 0 4 5
+sprite 36  5 86 0 3 5
+sprite 23  1 96 0 1 5
+sprite 23 10 96 0 0 5
+sprite 21 10 96 0 1 5
+sprite 19 10 96 0 4 5
+sprite 18  9 86 0 3 5
+sprite 16  7 86 0 0 5
+sprite  7  3 86 0 4 5
+sprite  4  3 86 0 3 5
+sprite 51 19 96 0 0 5
+sprite 51 18 96 0 2 5
+sprite 51 11 96 0 1 5
+sprite 53 11 96 0 3 5
+sprite 43 21 36 0 2 5
+sprite 37 16 36 0 1 5
+sprite 35 22 36 0 0 5
+sprite 36 23 36 0 3 5
+sprite 35 23 34 0 0 5
+sprite 21 22 96 0 2 5
+sprite 21 20 96 0 0 5
+sprite 18 15 36 0 0 5
+sprite 18 26 36 0 1 5
+sprite 14 24 97 0 0 5
+sprite 14 22 97 0 2 5
+sprite 13 19 97 0 0 5
+sprite 15 18 97 0 3 5
+sprite 10 15 96 0 2 5
+sprite  4 15 86 0 3 5
+sprite  3 14 86 0 0 5
+sprite  2 17 86 0 2 5
+sprite  3 20 96 0 0 5
+sprite  3 21 96 0 1 5
+sprite 10 25 96 0 2 5
+sprite 12 32 96 0 0 5
+sprite 13 33 96 0 3 5
+sprite  6 38 86 0 1 5
+sprite  2 39 86 0 3 5
+sprite  2 31 86 0 2 5
+sprite  8 31 86 0 3 5
+sprite  8 33 86 0 1 5
+sprite  4 42 86 0 2 5
+sprite 11 40 86 0 0 5
+sprite  1 47 97 0 0 5
+sprite 10 47 96 0 1 5
+sprite  1 50 96 0 2 5
+sprite 10 50 96 0 4 5
+sprite 12 44 36 0 2 5
+sprite  4 60 86 0 0 5
+sprite  5 62 86 0 3 5
+sprite  8 62 96 0 2 5
+sprite 12 56 96 0 0 5
+sprite 14 55 86 0 1 5
+sprite 13 61 86 0 0 5
+sprite 19 61 96 0 3 5
+sprite 22 60 36 0 2 5
+sprite 14 48 96 0 1 5
+sprite 27 48 96 0 0 5
+sprite 24 45 86 0 0 5
+sprite 17 43 86 0 2 5
+sprite 29 40 36 0 2 5
+sprite 30 36 86 0 3 5
+sprite 21 36 86 0 0 5
+rem ************************Monster Generators******************
+areatrigger 55 6 55 7 101
+areatrigger 59 23 60 23 102
+areatrigger 11 20 11 21 103
+areatrigger 12 34 14 34 104
+trigger 8 53 105
+areatrigger 41 43 41 45 106
+areatrigger 53 48 58 48 106
+trigger 45 56 107
+spawn 22 6 101 206 0 3 5 0
+spawn 24 4 101 211 0 0 5 0
+spawn 36 4 101 206 0 2 5 0
+spawn 40 9 101 206 0 0 5 0
+spawn 47 4 101 211 0 1 5 0
+spawn 60 8 102 36  0 3 2 0
+spawn 60 5 102 213 0 1 5 0
+spawn 62 19 102 206 0 0 5 0
+spawn 40 20 103 212 0 3 5 0
+spawn 37 17 103 213 0 1 5 0
+spawn 22 23 103 211 0 2 5 0
+spawn 21 20 103 211 0 0 5 0
+spawn  8 20 104 206 0 2 5 0
+spawn  6 16 104 206 0 0 5 0
+spawn  4 23 104 206 0 4 5 0
+spawn 12 32 105 211 0 2 5 0
+spawn 10 37 105 206 0 0 5 0
+spawn  5 56 105 206 0 1 5 0
+spawn 21 49 105 211 0 2 5 0
+spawn 21 39 105 206 0 1 5 0
+spawn 54 30 106 206 0 0 5 0
+spawn 43 35 106 213 0 1 5 0
+spawn 47 41 106 211 0 3 5 0
+spawn 55 49 107  34 0 1 5 0
+spawn 51 53 107  86 0 0 5 0
+spawn 53 54 107  86 0 0 5 0
+spawn 55 57 107  86 0 3 5 0
+spawn 57 54 107  34 0 3 5 0
+spawn 47 58 107 206 0 1 5 0
+spawn 58 36 106 206 0 2 5 0
+spawn 32 44 106 213 0 1 5 0
+end of file
+

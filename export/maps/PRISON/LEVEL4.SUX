@@ -1,0 +1,61 @@
+rem ************ prison factory area *****************
+rem ***********level specifics************************
+levelscore      50000
+bonustime       25
+rem **************************************************
+rem **************lower work room machines************
+mapzone 20 59 22 60 0 260 8 151 4 0
+mapzone 20 59 22 60 260 261 8 55 4 0
+mapzone 20 59 22 60 261 260 8 151 4 0
+mapzone 33 59 33 61 0 265 8 151 2 0
+mapzone 33 59 33 61 265 266 8 55 2 0
+mapzone 33 59 33 61 266 265 8 151 2 0
+mapzone 32 60 32 60 265 267 8 151 4 0
+mapzone 32 60 32 60 267 0   8 55 4 0
+mapzone 34 60 34 60 265 269 8 55 4 0
+mapzone 34 60 34 60 269 270 8 151 4 0
+mapzone 34 60 34 60 270 269 8 55 4 0
+rem **************************************************
+rem ******************right work room machines********
+rem mapzone 60 25 60 25 0 275 9 160 4 0
+rem mapzone 60 25 60 25 275 276 9 64 15 0
+rem mapzone 60 25 60 25 276 275 9 160 4 0
+rem mapzone 60 29 60 29 0 278 9 64 15 0
+rem mapzone 60 29 60 29 278 279 9 160 4 0
+rem mapzone 60 29 60 29 279 278 9 64 15 0
+rem ********************************************
+mapzone 59 12 59 12 0 280 8 10 4 0
+mapzone 59 12 59 12 280 281 8 50 4 0
+mapzone 59 12 59 12 281 280 8 10 4 0
+mapzone 56 17 59 17 0 282 9 128 4 0
+mapzone 56 17 59 17 282 283 9 96 3 0
+mapzone 56 17 59 17 283 282 9 128 4 0
+rem *****************monster generators****************
+sprite 31 19 207 0 0 5
+sprite 19 57 207 0 0 5
+sprite 51 2  207 0 1 5
+sprite 25 10 207 0 1 5
+rem sprite 54 37 207 0 2 5
+sprite 47 45 208 0 3 5
+sprite 51 19 208 0 0 5
+sprite 62 13 208 0 0 5
+sprite 58 57 208 0 0 5
+rem sprite 35 15 208 0 0 5
+sprite 59 31 208 0 1 5
+sprite 54 42 208 0 1 5
+rem sprite 58 47 208 0 2 5
+sprite 34 37 208 0 2 5
+sprite 27 45 207 0 2 5
+rem sprite 24 62 208 0 3 5
+sprite 27 3  208 0 3 5
+sprite 37 52 208 0 3 5 
+rem sprite 47 57 208 0 3 5
+sprite 38 5  207 0 3 5
+rem ************************************************
+rem ****************power rooms*********************
+rem mapzone 37 51 41 55 0 290 8 120 6 0
+rem mapzone 37 51 41 55 290 291 8 5 7 0
+rem mapzone 37 51 41 55 291 290 8 120 6 0
+
+end of file
+

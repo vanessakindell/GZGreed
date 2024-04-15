@@ -1,0 +1,131 @@
+rem ****************** Kaal 2 ***********************
+rem ************** level specifics ******************
+levelscore 70000
+bonustime 40
+primary 0 10000 1 15
+secondary 0 5000 10 13
+secondary 0 5000 10 13
+secondary 0 5000 10 13
+secondary 0 5000 10 13
+secondary 0 5000 10 13
+secondary 0 5000 10 13
+secondary 0 5000 10 13
+secondary 0 5000 10 13
+secondary 0 5000 10 13
+secondary 0 5000 10 13
+forceload kman 56
+forceload kfem 56
+forceload kprob 48
+forceload kbot 48
+rem *************************************************
+rem ****************** Enemies **********************
+rem Big Hold One
+sprite 57 57 79 0 4 5
+sprite 56 54 75 0 1 5
+sprite 45 54 77 0 0 5
+sprite 34 54 75 0 1 5
+sprite 24 56 77 0 2 5
+sprite 23 42 77 0 3 5
+sprite 34 42 200 0 1 5
+sprite 45 42 77 0 0 5
+sprite 27 47 79 0 2 5
+sprite 28 28 202 0 0 5
+sprite 27 49 79 0 3 5
+sprite 33 49 79 0 2 5
+sprite 33 48 79 0 1 5
+sprite 34 48 79 0 0 5
+sprite 35 48 202 0 3 5
+sprite 36 48 79 0 2 5
+sprite 40 48 79 0 0 5
+sprite 42 49 79 0 1 5
+rem Small Hold Front
+sprite 54 38 79 0 3 5
+sprite 51 38 79 0 2 5
+sprite 46 35 202 0 0 5
+sprite 42 35 79 0 1 5
+sprite 37 39 79 0 2 5
+sprite 36 37 79 0 3 5
+sprite 37 36 202 0 3 5
+rem Big Hold Two
+sprite 45 32 77 0 0 5
+sprite 34 32 200 0 1 5
+sprite 23 32 77 0 2 5
+sprite 24 18 77 0 2 5
+sprite 34 20 75 0 1 5
+sprite 45 20 77 0 0 5
+sprite 25 24 202 0 1 5
+sprite 25 25 79 0 2 5
+sprite 25 28 79 0 1 5
+sprite 28 26 202 0 0 5
+sprite 32 25 79 0 3 5
+sprite 34 26 202 0 1 5
+sprite 36 28 79 0 2 5
+sprite 40 26 79 0 0 5
+sprite 42 26 79 0 3 5
+rem Back Hall
+sprite 2 54 200 0 0 5
+sprite 2 20 200 0 0 5
+sprite 3 35 200 0 1 5
+sprite 3 39 200 0 1 5
+sprite 8 37 201 0 3 5
+rem Back Hold One
+sprite 15 44 79 0 3 5
+sprite 14 44 79 0 2 5
+sprite 12 43 202 0 1 5
+sprite 11 42 79 0 2 5
+sprite 7 46 79 0 3 5
+sprite 9 48 79 0 3 5
+sprite 7 51 79 0 2 5
+sprite 13 49 202 0 0 5
+sprite 19 51 79 0 3 5
+rem Back Hold Two
+sprite 14 29 79 0 3 5
+sprite 15 29 79 0 2 5
+sprite 15 24 202 0 0 5
+sprite 12 22 202 0 1 5
+sprite 9 26 79 0 2 5
+sprite 7 26 79 0 3 5
+sprite 9 27 79 0 2 5
+rem *************************************************
+rem ******************* Stuff ***********************
+wallswitch 58 59 1
+mapzone 57 58 57 58 1 0 8 0 5 1
+rem room1 elevators
+wallswitch 45 42 2
+mapzone 33 43 35 44 2 3 8 0 3 0
+mapzone 33 43 35 44 3 2 8 64 3 0
+wallswitch 45 54 4
+mapzone 33 52 35 53 4 5 8 0 3 0
+mapzone 33 52 35 53 5 4 8 64 3 0
+rem secret in room1
+trigger 22 48 6
+mapzone 21 28 21 48 6 0 9 128 3 1
+rem room2 elevators
+wallswitch 45 32 7
+mapzone 33 30 35 31 7 8 8 0 3 0
+mapzone 33 30 35 31 8 7 8 64 3 0
+wallswitch 45 20 9
+mapzone 33 21 35 22 9 10 8 0 3 0
+mapzone 33 21 35 22 10 9 8 64 3 0
+rem secret in room2
+trigger 22 26 11
+mapzone 21 26 21 26 11 0 9 128 3 1
+rem door to nw room
+wallswitch 16 31 12
+mapzone 14 30 15 30 12 0 8 64 3 1
+rem door to sw room
+wallswitch 16 42 13
+mapzone 14 43 15 43 13 0 8 64 3 1
+sprite 46 48 135 0 0 5
+sprite 46 26 135 0 0 5
+sprite 18 37 135 0 0 5
+sprite 22 26 134 0 0 5
+sprite 22 48 134 0 0 5
+sprite 43 38 134 0 0 5
+rem *************************************************
+rem ******************Trash Chute *******************
+trigger 17 37 14
+spawnsound 17 37 14 88 0
+spawnsound 17 37 14 88 0
+spawnfli 14 2
+END

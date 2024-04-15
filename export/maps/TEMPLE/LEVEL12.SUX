@@ -1,0 +1,200 @@
+rem *****************Temple - Inner courtyard ******************
+backdrop backdrop2
+forceload pst 56
+forceload pss 56
+forceload veek 56
+forceload wiz 56
+forceload tboss 56
+rem ***************level specifics******************************
+levelscore      65000
+bonustime       40
+primary         0 40000 1 17
+secondary       0 3500  2 22
+secondary       1 3500  2 23
+rem ****************secondary items******************************
+sprite 14 15 54 0 0 5
+sprite 14 3  53 0 0 5
+sprite 58 9  54 0 0 5
+sprite 42 18 53 0 0 5
+rem *************************************************************
+wallswitch 1 57 1
+mapzone 13 30 14 30 1 0 8 30 10 1  
+mapzone 13 31 14 31 1 0 0 0 255 1
+trigger 26 24 5
+spawnsound 26 24 5 45 1
+spawnsound 26 24 5 45 1
+mapzone 26 24 26 24 5 6 8 85 5 1
+mapzone 58 37 59 37 5 0 0 0 255 1
+mapzone 50 44 50 44 5 0 2 0 255 1
+mapzone 46 61 46 61 5 0 2 0 255 1
+wallswitch 58 46 10
+mapzone 49 31 50 31 10 0 0 0 255 1
+mapzone 49 30 50 30 10 0 8 30 10 1
+trigger 37 24 15
+trigger 31 22 15
+trigger 32 22 15
+spawnsound 37 24 15 45 1
+spawnsound 37 24 15 45 1
+spawnsound 31 22 15 45 1
+spawnsound 31 22 15 45 1
+mapzone 37 24 37 24 15 16 8 85 5 1
+mapzone 2 20 2 20 15 0 8 85 2 1
+mapzone 5 20 5 20 15 0 8 85 2 1  
+mapzone 8 20 8 20 15 0 8 85 2 1  
+mapzone 14 21 14 21 15 0 8 85 2 1  
+mapzone 17 21 17 21 15 0 8 85 2 1  
+mapzone 20 21 20 21 15 0 8 85 2 1  
+mapzone 23 21 23 21 15 0 8 85 2 1  
+mapzone 40 21 40 21 15 0 8 85 2 1  
+mapzone 43 21 43 21 15 0 8 85 2 1  
+mapzone 46 21 46 21 15 0 8 85 2 1  
+mapzone 49 21 49 21 15 0 8 85 2 1  
+mapzone 54 20 54 20 15 0 8 85 2 1  
+mapzone 57 20 57 20 15 0 8 85 2 1  
+mapzone 60 20 60 20 15 0 8 85 2 1  
+mapzone 31 23 32 25 15 0 8 5 2 1
+rem ************************Item Generators******************
+sprite 1  53 100 0 0 5
+sprite 34 60 101 0 0 5
+sprite 52 52 100 0 0 5
+sprite 30 51 101 0 0 5
+sprite 1  23 100 0 0 5
+sprite 52 23 101 0 0 5
+sprite 1  1  100 0 0 5
+sprite 1  20 101 0 0 5
+sprite 61  1 101 0 0 5
+sprite 56 16 100 0 0 5
+rem ****************************Monsters*********************
+sprite 2  57 36 0 0 5
+sprite 5  53 86 0 1 5
+sprite 7  55 86 0 2 5
+sprite 9  58 96 0 0 5
+sprite 9  51 86 0 2 5
+sprite 30 60 96 0 0 5
+sprite 33 60 96 0 3 5
+sprite 44 61 86 0 0 5
+sprite 59 55 86 0 0 5
+sprite 54 56 86 0 1 5
+sprite 55 51 86 0 3 5
+sprite 52 48 86 0 0 5
+sprite 54 46 86 0 3 5
+sprite 61 44 36 0 1 5
+sprite 43 45 97 0 0 5
+sprite 46 55 97 0 2 5
+sprite 37 56 97 0 0 5
+sprite 30 56 87 0 2 5
+sprite 25 56 87 0 0 5
+sprite 20 56 97 0 0 5
+sprite 16 52 97 0 4 5
+sprite 18 45 97 0 2 5
+sprite 22 45 97 0 0 5
+sprite 22 55 36 0 4 5
+sprite 39 57 36 0 2 5
+sprite 2  46 86 0 0 5
+sprite 3  39 96 0 0 5
+sprite 3  37 96 0 2 5
+sprite 1  33 36 0 0 5
+sprite 18 34 86 0 0 5
+sprite 19 32 96 0 0 5
+sprite 9  28 96 0 2 5
+sprite 2  25 86 0 1 5
+sprite 8  24 86 0 2 5
+sprite 10 22 86 0 0 5
+sprite 8  22 86 0 2 5
+sprite 14 24 86 0 0 5
+sprite 19 24 86 0 2 5
+sprite 24 24 36 0 1 5
+sprite 24 33 36 0 3 5
+sprite 28 38 96 0 1 5
+sprite 36 38 96 0 3 5
+sprite 38 13 36 0 4 5
+sprite 36 29 96 0 1 5
+sprite 27 29 96 0 2 5
+sprite 31 32 34 0 0 5
+sprite 30 27 36 0 1 5
+sprite 33 27 36 0 2 5
+sprite 44 32 96 0 4 5
+sprite 44 35 86 0 2 5
+sprite 51 33 86 0 0 5
+sprite 54 33 96 0 2 5
+sprite 54 28 96 0 0 5
+sprite 50 25 86 0 0 5
+sprite 47 24 86 0 0 5
+sprite 46 29 96 0 3 5
+sprite 41 28 96 0 2 5
+sprite 38 24 36 0 1 5
+sprite 55 23 86 0 0 5
+sprite 57 25 86 0 0 5
+sprite 62 25 96 0 2 5
+sprite 62 34 36 0 0 5
+sprite 58 40 96 0 1 5
+rem *****************Monster Generators*******************
+areatrigger 31 23 32 23 101
+areatrigger 13 28 14 28 102
+areatrigger 49 28 50 28 103
+areatrigger 31 42 32 42 104
+areatrigger 21 44 42 45 104
+areatrigger 42 44 42 45 104
+areatrigger 2 18 61 18 105
+trigger 24 59 104
+trigger 39 59 104
+spawn 41 62 103 206 0 2 5 1
+spawn 19 62 103 206 0 4 5 1
+spawn 5  57 102 211 0 1 5 1
+spawn 25 51 104 206 0 0 5 1
+spawn 35 52 104 211 0 1 5 1
+spawn 57 44 103 206 0 1 5 1
+spawn 62 33 102 213 0 0 5 1
+spawn 50 35 102 206 0 2 5 1
+spawn 47 33 103 211 0 4 5 1
+spawn 32 30 101 211 0 1 5 1
+spawn 32 35 101 212 0 2 5 1
+spawn 59 23 101 206 0 0 5 1
+spawn 43 24 101 211 0 3 5 1
+spawn 14 33 102 206 0 2 5 1
+spawn 7  33 102 211 0 4 5 1
+spawn 1  34 102 213 0 0 5 1
+spawn 44 20 105 206 0 0 5 1
+spawn 56 19 105 206 0 2 5 1
+spawn 59 12 105 211 0 0 5 1
+spawn 51 11 105 206 0 2 5 1
+spawn 38 18 105 213 0 4 5 1
+spawn 26 18 105 213 0 4 5 1
+spawn 13 20 105 206 0 0 5 1
+spawn 9  17 105 36  0 3 5 1
+spawn 13 12 105 211 0 0 5 1
+spawn 10 18 105 26  0 3 5 1
+spawn 7  2  105 206 0 0 5 1
+spawn 18 10 105 206 0 0 5 1
+spawn 18  7 105 206 0 2 5 1 
+spawn 21  7 105 206 0 4 5 1
+spawn 41  9 105 206 0 4 5 1
+spawn 41  6 105 206 0 2 5 1
+spawn 43  3 105 206 0 0 5 1
+spawn 54  5 105 36  0 3 5 1
+spawn 60  4 105 206 0 0 5 1
+areatrigger 2 17 61 17 201 
+spawn 30 14 201 34 202 0 0 0
+spawn 30 14 201 34 203 1 2 0
+spawn 61 16 203 34 202 1 2 0 
+spawn 30 14 201 34 205 3 5 0
+spawn 61 16 205 34 207 3 5 0
+spawn 11 4  207 34 202 3 5 0
+mapzone 0 0 0 0 203 204 8 0 255 1
+mapzone 0 0 0 0 205 206 8 0 255 1
+mapzone 0 0 0 0 207 208 8 0 255 1
+mapzone 37 12 37 12 202 0   8 5 4 1
+mapzone 37  5 37  5 202 0   8 5 4 1
+mapzone 26  5 26  5 202 0   8 5 4 1
+mapzone 26 12 26 12 202 0   8 5 4 1 
+mapzone 31 48 32  4 202 0   8 5 4 1
+mapzone 31 13 32 13 202 0   8 5 4 1
+rem **********************Enter Y'ark**********************
+areatrigger 27 6 36 11 170
+mapzone 1 1 62 24 170 0 14 160 4 1
+areatrigger 27 6 36 11 213
+spawn 31 8 213 38 214 0 5 0
+spawn 31 9 214 51 0 0 5 0
+
+end of file
+

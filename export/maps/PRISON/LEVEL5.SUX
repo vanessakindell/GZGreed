@@ -1,0 +1,157 @@
+rem *************water storage prison level ****************
+forceload trooper 56
+forceload prisoner 56
+forceload guard 56
+rem *************level specifics****************************
+levelscore      70000
+bonustime       35
+primary         0 40000 1 2
+secondary       0 3500  3 6
+secondary       1 5000  3 7
+rem ********************************************************
+sprite 8  17 53 0 0 5
+sprite 39 17 53 0 0 5
+sprite 9  34 54 0 0 5
+sprite 6  4  54 0 0 5
+sprite 43 4  53 0 0 5
+sprite 48 42 54 0 0 5
+rem *******************water down area 1********************
+wallswitch 27 52 1
+mapzone 0 43 14 57 1 2 8 0 255 1
+mapzone 14 43 14 43 2 0 8 100 255 1
+mapzone 14 57 14 57 2 3 8 100 255 1
+spawnelevator 1 42 3 1 100 5 4
+mapzone 8 48 9 49 3 0 8 10 255 1
+rem *********************************************************
+rem ********************water down area 2 *******************
+wallswitch 28 54 10
+mapzone 0 27 14 40 10 11 8 0 255 1
+mapzone 14 40 14 40 11 12 8 100 255 1
+mapzone 14 27 14 27 11 12 8 100 255 1
+spawnelevator 2 26 12 1 100 5 4
+mapzone 8 33 9 34 12 0 8 10 255 1
+rem *********************water down area 3 ********************
+wallswitch 27 54 16
+mapzone 0 11 14 24 16 17 8 0 255 1
+mapzone 14 11 14 11 17 18 8 100 255 1
+mapzone 14 24 14 24 17 0  8 100 255 1
+spawnelevator 2 10 18 1 100 5 4
+mapzone 8 17 9 18 18 0 8 10 255 1
+rem *******************water down area 4***********************
+wallswitch 30 54 25
+mapzone 34 11 47 24 25 26 8 0 255 1
+mapzone 34 11 34 11 26 27 8 100 255 1
+mapzone 47 11 47 11 26 0  8 100 255 1
+mapzone 47 24 47 24 26 0  8 100 255 1
+mapzone 34 24 34 24 26 0  8 100 255 1
+mapzone 39 17 40 18 27 0 8 10 255 1
+spawnelevator 41 25 27 1 100 5 4
+rem ***********************down water area 5*********************
+wallswitch 22 53 35
+mapzone 0 1 30 8 35 36  8 0   255 1
+mapzone 31 4 36 6 35 0  8 0   255 1
+mapzone 36 7 46 9 35 0  8 0   255 1
+mapzone 30 8 30 8 36 37 8 100 255 1
+mapzone 14 8 17 8 36 0  8 100 255 1
+mapzone 36 8 36 9 36 0  8 100 255 1
+mapzone 5 3 7 4   36 0  8 10  255 1  
+mapzone 7 1 7 2   36 0  8 10  255 1
+spawnelevator 25 9 36 1 100 5 4
+rem ************************down water area 6********************
+wallswitch 23 54 40
+mapzone 17 11 31 24 40 41 8 0 255 1
+mapzone 17 11 17 11 41 42 8 100 255 1
+mapzone 31 11 31 11 41 0  8 100 255 1
+mapzone 31 24 31 24 41 0  8 100 255 1
+mapzone 17 24 17 24 41 0  8 100 255 1
+spawnelevator 23 10 40 1 100 5 4
+mapzone 24 16 25 17 42 0 8 10 255 1
+rem ***********************first force fields*********************
+wallswitch 30 37 50
+mapzone 33 47 34 47 50 0 0 0 255 1
+mapzone 33 47 33 48 50 0 2 0 255 1
+mapzone 22 42 22 42 50 0 2 0 255 1
+rem *********************switch force fields**********************
+trigger 8 48 60
+mapzone 27 54 27 54 60 0 0 0 255 1
+trigger 8 17 63 
+mapzone 29 54 30 54 63 0 0 0 255 1
+mapzone 31 54 31 54 63 0 2 0 255 1
+trigger 39 17 66
+mapzone 28 54 28 54 66 0 0 0 255 1
+mapzone 28 54 29 54 66 0 2 0 255 1
+trigger 9 34 69
+mapzone 24 50 24 50 69 0 0 0 255 1
+rem ****************************************************************
+rem **********************item generators***************************
+sprite 46 56 100 0 0 5
+sprite 3 58  100 0 0 5
+sprite 2 42  101 0 0 5
+sprite 38 35 100 0 0 5
+sprite 60 25 101 0 0 5
+sprite 3 25  100 0 0 5
+sprite 3 9   101 0 0 5
+sprite 60 9  100 0 0 5
+sprite 41 43 101 0 0 5
+rem *********************monsters**************************
+sprite 26 58 91 0 0 5
+sprite 25 29 91 0 2 5
+sprite 15 52 91 0 2 5
+sprite 2 58  89 0 0 5
+sprite 3 54  89 0 4 5
+sprite 34 48 91 0 0 5
+sprite 29 53 91 0 4 5 
+sprite 25 53 91 0 0 5
+sprite 22 53 91 0 2 5
+sprite 22 48 89 0 0 5
+sprite 15 51 91 0 0 5
+sprite 15 49 91 0 2 5
+sprite 16 46 91 0 4 5
+sprite 1 42  89 0 0 5
+sprite 2 4   89 0 2 5
+sprite 22 42 91 0 0 5
+sprite 28 43 91 0 2 5
+sprite 47 40 89 0 2 5
+sprite 47 44 89 0 4 5
+sprite 30 37 89 0 0 5
+sprite 38 31 91 0 0 5
+sprite 42 36 91 0 2 5
+sprite 61 24 91 0 0 5
+sprite 59 26 91 0 2 5
+sprite 2 26  89 0 0 5
+sprite 2 25  89 0 4 5
+sprite 3 10  89 0 0 5
+sprite 2  9  89 0 3 5
+sprite 7 3   91 0 0 5
+sprite 34 9  91 0 0 5
+sprite 33 11 91 0 2 5
+sprite 49 1  89 0 0 5
+sprite 59 9  91 0 0 5
+sprite 61 10 91 0 3 5
+sprite 48 17 91 0 0 5
+sprite 49 28 91 0 3 5
+sprite 48 32 91 0 1 5
+areatrigger 14 40 17 43 100
+activationzone 1 41 2 42 100 1
+areatrigger 13 23 18 28 101
+activationzone 2 24 5 27 101 1
+areatrigger 13 7 18 12 102
+activationzone 2 8 5 11 102 1
+areatrigger 46 23 51 28 103 
+activationzone 58 24 62 26 103 1
+areatrigger 46 8 51 12 104
+activationzone 58 9 62 10 104 1
+rem *****************monster generators************************
+trigger 28 50 120
+spawn 15 58 100 103 0 2 5 0
+spawn 16 41 100 102 0 1 5 0
+spawn 16 25 100 103 0 2 5 0
+spawn 32  9 100 103 0 0 5 0
+spawn 32  9 100 103 0 4 5 0
+spawn 33 25 100 103 0 0 5 0
+spawn 34 38 100 103 0 3 5 0
+spawn 48 26 100 102 0 2 5 0
+spawn 49 10 100 103 0 0 5 1
+spawn 8  25 100 103 0 4 5 1
+end of file
+

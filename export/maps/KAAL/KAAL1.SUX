@@ -1,0 +1,89 @@
+rem ****************** Kaal 1 ***********************
+rem ************** level specifics ******************
+levelscore 50000
+bonustime 30
+primary 0 46000 1 13
+secondary 0 4000 1 16
+forceload kman 56
+forceload kfem 56
+rem ***********************************************
+rem *****************Enemys************************
+sprite 32 29 75 0 0 5
+sprite 32 35 75 0 0 5
+sprite 60 42 200 0 0 5
+sprite 26 32 77 0 0 5
+sprite 50 32 200 0 0 5
+sprite 60 42 75 0 0 5
+sprite 44 39 77 0 0 5
+sprite 17 30 76 0 1 5
+sprite 17 34 76 0 1 5
+sprite 57 23 75 0 1 5
+sprite 51 48 75 0 1 5
+sprite 45 54 200 0 1 5
+sprite 39 26 77 0 1 5
+sprite 28 32 75 0 2 5
+sprite 19 28 200 0 2 5
+sprite 19 36 76 0 2 5
+sprite 51 48 75 0 2 5
+sprite 31 19 77 0 2 5
+sprite 32 46 200 0 2 5
+sprite 40 44 75 0 2 5
+sprite 39 38 77 0 2 5
+sprite 61 33 75 0 2 5
+sprite 27 30 200 0 3 5
+sprite 27 34 200 0 3 5
+sprite 61 31 75 0 3 5
+sprite 37 21 200 0 3 5
+sprite 37 42 77 0 3 5
+sprite 40 46 200 0 3 5
+sprite 31 16 200 0 3 5
+sprite 32 52 75 0 3 5
+sprite 17 27 76 0 4 5
+sprite 17 37 76 0 4 5
+sprite 35 31 77 0 4 5
+sprite 35 33 200 0 4 5
+sprite 17 23 77 0 4 5
+sprite 11 31 200 0 4 5
+sprite 11 33 200 0 4 5
+sprite 61 21 200 0 4 5
+sprite 23 20 78 0 4 5
+sprite 23 44 78 0 4 5
+sprite 43 41 75 0 4 5
+sprite 50 28 200 0 4 5
+sprite 50 36 77 0 4 5
+sprite 8 28 200 0  5 5
+sprite 8 36 200 0 5 5
+sprite 29 20 75 0 5 5
+sprite 56 28 200 0 5 5
+sprite 56 36 75 0 5 5
+sprite 25 16 201 0 1 5
+sprite 26 46 76 0 5 5
+sprite 47 41 76 0 5 5
+sprite 47 43 200 0 5 5
+sprite 47 47 75 0 5 5
+sprite 57 48 200 0 5 5
+sprite 25 45 76 0 5 5
+sprite 24 48 76 0 5 5
+rem ***********************************************
+rem *************Activation Triggers***************
+areatrigger 8 26 8 38 100
+activationzone 17 26 21 38 100 1
+areatrigger 12 30 17 35 101
+activationzone 24 28 31 36 101 1
+areatrigger 33 30 33 34 102
+activationzone 36 25 40 39 102 1
+activationzone 60 30 61 34 102 1
+areatrigger 60 34 61 34 103
+activationzone 51 38 61 48 103 1
+areatrigger 57 41 57 48 104
+activationzone 39 38 54 54 104 1
+rem ***********************************************
+rem ****************Wall Switches******************
+wallswitch 57 23 1
+mapzone 44 52 46 52 1 0 8 96 1 1
+wallswitch 45 54 2
+mapzone 45 45 45 45 2 0 8 16 5 1
+wallswitch 29 52 3
+mapzone 44 52 46 52 3 0 8 112 1 1
+mapzone 60 30 61 30 3 0 8 60 1 1
+END

@@ -1,0 +1,245 @@
+rem **************Temple - Summoning Circles*********************
+forcelaod pst 56
+forceload pss 56
+forceload veek 56
+forceload wiz 56
+rem **************level specifics********************************
+levelscore      70000
+bonustime       35
+primary         0 10000 4 20
+secondary       0 5000  1 25
+secondary       1 5000  1 26
+secondary       2 5000  1 27
+secondary       3 5000  1 28
+rem *************************************************************
+backdrop backdrop2
+areatrigger 21 58 22 58 170
+spawnsound 22 58 170 87 0
+spawnsound 22 58 170 87 0
+spawnfli 170 1
+rem *********************seals and triggers**********************
+trigger 27 32 1
+mapzone 8 3 8 3 1 0 2 0 255 1
+trigger 28 48 5
+mapzone 8 60 8 60 5 0 2 0 255 1
+trigger 27 15 10
+mapzone 56 60 56 60 10 0 2 0 255 1
+trigger 6 54 15
+mapzone 56 3 56 3 15 0 2 0 255 1
+trigger 3 3 20
+spawn 3 3 20 51 0 0 5 1
+mapzone 3 3 3 3 20 0 4 225 255 1
+mapzone 3 4 3 4 20 0 4 226 255 1
+mapzone 4 3 4 3 20 0 4 227 255 1
+mapzone 4 4 4 4 20 0 4 228 255 1
+trigger 59 3 25
+spawn 59 3 25 51 0 0 5 1
+mapzone 59 3 59 3 25 0 4 225 255 1
+mapzone 59 4 59 4 25 0 4 226 255 1
+mapzone 60 3 60 3 25 0 4 227 255 1
+mapzone 60 4 60 4 25 0 4 228 255 1
+trigger 3 58 30
+spawn 3 58 30 51 0 0 5 1
+mapzone 3 58 3 58 30 0 4 225 255 1
+mapzone 3 59 3 59 30 0 4 226 255 1
+mapzone 4 58 4 58 30 0 4 227 255 1
+mapzone 4 59 4 59 30 0 4 228 255 1
+trigger 59 59 35
+spawn 59 59 35 51 0 0 5 1
+mapzone 59 59 59 59 35 0 4 225 255 1
+mapzone 59 60 59 60 35 0 4 226 255 1
+mapzone 60 59 60 59 35 0 4 227 255 1
+mapzone 60 60 60 60 35 0 4 228 255 1
+rem **********************Item Generators**********************
+sprite 62 47 101 0 0 5
+sprite 34 50 100 0 0 5
+sprite 17 55 101 0 0 5
+sprite 26 40 101 0 0 5
+sprite 6  42 100 0 0 5
+sprite 16 26 101 0 0 5
+sprite 39 27 100 0 0 5
+sprite 54 8  100 0 0 5
+sprite 31 8  101 0 0 5
+sprite 19 12 100 0 0 5
+rem *********************Monsters******************************
+sprite 60 61 34 0 0 5
+sprite 62 59 36 0 4 5
+sprite 60 57 36 0 2 5
+sprite 54 59 36 0 2 5
+sprite 52 57 36 0 0 5
+sprite 47 46 86 0 3 5
+sprite 43 46 86 0 0 5
+sprite 42 48 96 0 0 5
+sprite 39 52 86 0 0 5
+sprite 36 48 86 0 0 5
+sprite 32 48 86 0 2 5
+sprite 32 52 86 0 3 5
+sprite 29 52 86 0 0 5
+sprite 29 48 37 0 0 5
+sprite 27 55 86 0 2 5
+sprite 25 54 86 0 4 5
+sprite 23 51 86 0 2 5
+sprite 21 48 86 0 0 5
+sprite 24 45 96 0 3 5
+sprite 29 40 96 0 1 5
+sprite 33 42 86 0 0 5
+sprite 19 42 86 0 4 5
+sprite 41 40 96 0 1 5
+sprite 41 41 96 0 3 5
+sprite 47 40 86 0 4 5
+sprite 48 37 86 0 2 5
+sprite 46 36 86 0 0 5
+sprite 55 46 36 0 1 5
+sprite 58 44 36 0 3 5
+sprite 44 37 36 0 3 5
+sprite 58 32 96 0 2 5
+sprite 60 33 96 0 0 5
+sprite 61 30 96 0 0 5
+sprite 58 30 96 0 3 5
+sprite 58 27 36 0 2 5
+sprite 62 27 96 0 3 5
+sprite 58 20 36 0 0 5
+sprite 62 20 96 0 1 5
+sprite 54 23 86 0 0 5
+sprite 53 24 86 0 3 5
+sprite 45 31 97 0 1 5
+sprite 45 29 37 0 0 5
+sprite 43 27 97 0 2 5
+sprite 53 18 86 0 4 5
+sprite 54 17 86 0 0 5
+sprite 54 16 86 0 2 5
+sprite 54 15 86 0 0 5
+sprite 54 14 86 0 2 5
+sprite 52 13 86 0 4 5
+sprite 52 17 86 0 2 5
+sprite 51 19 86 0 4 5
+sprite 60 11 36 0 3 5
+sprite 61 11 36 0 4 5
+sprite 50  2 36 0 2 5
+sprite 50  4 36 0 0 5
+sprite 60  6 36 0 2 5
+sprite 62  3 36 0 4 5
+sprite 60  1 34 0 0 5
+sprite 39 36 97 0 3 5
+sprite 39 32 86 0 0 5
+sprite 39 40 86 0 2 5
+sprite 39 29 87 0 0 5
+sprite 36 28 97 0 2 5
+sprite 33 28 97 0 4 5
+sprite 30 28 97 0 0 5
+sprite 27 37 97 0 0 5
+sprite 29 39 97 0 3 5
+sprite 37 39 97 0 0 5
+sprite 37 37 34 0 2 5
+sprite 37 30 34 0 0 5
+sprite 29 31 34 0 3 5
+sprite 29 36 34 0 4 5
+sprite 22 33 86 0 0 5
+sprite 22 37 96 0 2 5
+sprite 22 39 96 0 4 5
+sprite 42 57 86 0 0 5
+sprite 35 57 86 0 0 5
+sprite 27 55 86 0 2 5
+sprite 18 35 86 0 0 5
+sprite 14 36 86 0 3 5
+sprite  6 35 86 0 3 5
+sprite  7 39 86 0 1 5
+sprite  2 31 86 0 2 5
+sprite  2 33 86 0 1 5
+sprite  3 35 86 0 3 5
+sprite  3 41 86 0 0 5
+sprite  3 48 36 0 1 5
+sprite  7 50 36 0 0 5
+sprite  8 51 86 0 0 5
+sprite 11 42 96 0 0 5
+sprite 12 45 96 0 2 5
+sprite 10 47 96 0 3 5
+sprite 17 57 38 0 2 5
+sprite 17 60 38 0 0 5
+sprite  9 60 36 0 0 5
+sprite  2 62 36 0 2 5
+sprite  6 58 36 0 4 5
+sprite  1 58 34 0 0 5
+sprite 22 28 96 0 0 5
+sprite 11 29 86 0 2 5
+sprite 13 26 96 0 1 5
+sprite 13 23 96 0 3 5 
+sprite 15 20 86 0 2 5
+sprite 11 20 86 0 0 5
+sprite  8 25 96 0 0 5
+sprite  6 20 36 0 2 5
+sprite  8 15 96 0 0 5
+sprite  2 17 86 0 0 5
+sprite  2 19 86 0 2 5
+sprite  3 23 86 0 0 5
+sprite  1 12 96 0 0 5
+sprite  3  8 96 0 0 5
+sprite  7  8 96 0 2 5
+sprite 13  4 36 0 0 5
+sprite 13  2 36 0 2 5
+sprite  3  5 34 0 0 5
+sprite  1  4 36 0 4 5
+sprite  4  1 36 0 2 5
+sprite 19  4 86 0 0 5
+sprite 24  4 86 0 4 5 
+sprite 22  6 86 0 3 5
+sprite 21  8 86 0 2 5
+sprite 21 10 86 0 0 5
+sprite 24 10 86 0 0 5
+sprite 24  8 86 0 2 5
+sprite 25  6 86 0 3 5
+sprite 26  4 86 0 4 5
+sprite 30 11 37 0 0 0
+sprite 34 12 37 0 1 5
+sprite 34  8 35 0 3 5
+sprite 39  4 86 0 4 5
+sprite 40  7 86 0 2 5
+sprite 41  9 86 0 0 5
+sprite 43  8 86 0 4 5
+sprite 42  6 86 0 2 5
+sprite 41  4 86 0 0 5
+areatrigger 60 16 61 17 28 
+activationzone 58 10 61 12 28 1
+areatrigger 16 7 18 13 26
+activationzone 1 8 13 13 26 1
+areatrigger 48 9 41 16 27
+trigger 48 9 27
+trigger 41 16 27
+activationzone 36 2 44 13 27 1
+rem *************************Monster Generators****************
+trigger 62 47 101
+trigger 34 50 102
+trigger 21 40 103
+areatrigger 4 52 8 52 104
+areatrigger 6 14 7 14 105
+trigger 11 17 105
+areatrigger 32 24 33 24 105
+rem trigger 6 is 27
+areatrigger 11 48 12 48 107
+spawn 38 56 102 206 0 2 5 0
+spawn 30 58 102 206 0 3 5 0
+spawn 42 45 102 206 0 2 5 0
+spawn 55 32 101 211 0 3 5 0
+spawn 55 30 101 211 0 0 5 0
+spawn 59 13 101 206 0 3 5 0
+spawn 46 9  27  206 0 2 5 0
+spawn 42 9  27  206 0 0 5 0
+spawn 32 3  27  206 0 1 5 0
+spawn 22 10 105 206 0 2 5 0
+spawn 31 19 104 206 0 4 5 0
+spawn 36 21 105 213 0 5 5 0
+spawn 42 23 105 213 0 3 5 0
+spawn 35 33 103 206 0 1 5 0
+spawn 29 34 103 206 0 3 5 0
+spawn 31 44 103 211 0 1 5 0
+spawn 18 45 103 206 0 3 5 0
+spawn 12 36 107 206 0 1 5 0
+spawn 12 41 107 211 0 2 5 0
+spawn 1  42 104 213 0 1 4 0
+spawn 7  21 105 206 0 0 5 0
+spawn 14 32 104 206 0 3 5 0
+spawn 12 19 105 206 0 2 5 0
+spawn 12 11 105 211 0 0 5 0
+spawn 14  7 105 211 0 2 5 0
+end of file
+

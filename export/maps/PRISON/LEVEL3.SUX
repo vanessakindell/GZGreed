@@ -1,0 +1,58 @@
+rem ******hold1 prison level ***********************
+forceload trooper 56
+forceload bigguard 48
+forceload guard 56
+forceload prisoner 56
+rem ******level specifics***************************
+levelscore      60000
+bonustime       30
+primary         0 35000 1 1
+secondary       0 3000  3 4
+secondary       1 5000  3 5
+rem ************************************************
+rem ************center room sloped piston***********
+mapzone 43 21 44 22 0 301 8 0 5 1
+mapzone 43 21 44 22 301 302 8 30 5 0
+mapzone 43 21 44 22 302 301 8 0 5 0
+rem ************************************************
+rem ************* force field for prison area ******
+wallswitch 26 10 3
+mapzone 36 36 36 37 3 4 2 0 255 1
+mapzone 22 12 23 12 3 0 0 0 255 1
+rem ************************************************
+rem ******** force field for center prison area ****
+wallswitch 34 22 5
+mapzone 28 28 28 29 5 6 2 0 255 1
+mapzone 24 30 26 30 5 0 0 0 255 1
+rem ***********primary item trigger**********************
+trigger 24 23 7
+mapzone 24 23 24 23 7 8 8 133 4 1
+spawnsound 24 23 8 48 1
+mapzone 51 21 51 22 8 9 8 128 4 1
+spawn   17 33 7 94 0 3 5 1
+spawn   32 34 7 94 0 0 5 1
+mapzone 22 32 26 34 7 0 9 178 8 1
+mapzone 25 33 28 36 7 0 9 178 8 1
+mapzone 10 36 16 41 7 0 8 0 8 1
+spawntrigger 47 28 7 160 1
+spawntrigger 48 28 7 160 1
+spawntrigger 47 15 7 160 1
+spawntrigger 48 15 7 160 1
+spawn   56 19 160 88 0 0 5 1
+spawn   59 22 160 88 0 2 5 1
+spawn   56 25 160 88 0 1 5 1
+rem ************************************************
+rem ************generator spawning******************
+sprite 22 7  208 0 4 5
+sprite 28 48 208 0 4 5
+sprite 15 16 100 0 0 3
+sprite 48 42 100 0 0 3
+sprite 16 51 207 0 4 5
+sprite 11 22 208 0 2 5
+sprite 34 21 208 0 3 5
+sprite 52 3  208 0 2 5
+sprite 41 37 207 0 2 5
+rem *************************************************
+
+end of file
+

@@ -1,0 +1,124 @@
+rem *****************Temple - Towers ***********************
+forceload pss 56
+forceload pst 56
+rem ***************level specifics**************************
+levelscore      50000
+bonustime       25
+primary         0 30000 1 6
+secondary       0 4000 4 24
+backdrop backdrop2
+rem ********************************************************
+sprite 25 60 53 0 0 5
+sprite 56 62 53 0 0 5
+sprite 52 32 53 0 0 5
+sprite 21 26 53 0 0 5
+rem *****************Primary Door***************************
+wallswitch 24 61 1
+mapzone 35 16 36 16 1 0 8 155 6 1
+wallswitch 28 31 2
+mapzone 35 15 36 15 2 0 8 155 6 1
+wallswitch 53 39 3
+mapzone 35 14 36 14 3 0 8 155 6 1
+rem **************Item Generators**************************
+sprite 19 62 101 0 0 5
+sprite 13 49 100 0 0 5
+sprite 32 37 100 0 0 3
+sprite 39 37 101 0 0 3
+sprite 57 49 100 0 0 5
+sprite 57 33 101 0 0 5
+sprite 34 16 100 0 0 5
+sprite 51 20 101 0 0 5
+rem*********************************************************
+rem********************monsters*****************************
+sprite 29 57 96 0 4 5
+sprite 21 60 86 0 2 5
+sprite 22 57 86 0 4 5
+sprite 25 56 86 0 0 5
+sprite 16 62 87 0 0 5
+sprite 13 61 87 0 3 5
+sprite 18 54 87 0 2 5
+sprite 13 55 97 0 4 5
+sprite 13 53 86 0 2 5
+sprite 9  53 87 0 0 5
+sprite 9  49 86 0 4 5
+sprite 13 46 86 0 0 5 
+sprite 12 44 97 0 0 5
+sprite 17 50 86 0 4 5
+sprite 26 49 86 0 0 5
+sprite 22 49 86 0 1 5
+sprite 27 45 86 0 2 5
+sprite 28 41 86 0 4 5
+sprite 36 33 86 0 0 5
+sprite 34 31 96 0 0 5
+sprite 37 31 96 0 2 5
+sprite 43 42 86 0 2 5
+sprite 46 46 86 0 0 5
+sprite 53 46 86 0 0 5
+sprite 55 50 86 0 0 5
+sprite 57 47 86 0 2 5
+sprite 59 49 86 0 2 5
+sprite 57 52 86 0 4 5
+sprite 55 53 97 0 0 5
+sprite 60 52 87 0 2 5
+sprite 60 46 87 0 2 5
+sprite 54 58 96 0 4 5
+sprite 58 58 86 0 0 5
+sprite 59 61 86 0 3 5
+sprite 57 41 97 0 3 5
+sprite 53 40 87 0 2 5
+sprite 61 40 87 0 2 5
+sprite 59 34 87 0 0 5
+sprite 55 34 87 0 0 5
+sprite 53 28 86 0 2 5
+sprite 54 21 86 0 0 5
+sprite 52 23 86 0 2 5
+sprite 46 23 87 0 2 5
+sprite 47 20 97 0 3 5
+sprite 50 18 87 0 0 5
+sprite 43 21 97 0 0 5
+sprite 41 25 97 0 2 5
+sprite 35 25 86 0 0 5
+sprite 28 21 97 0 0 5
+sprite 30 18 86 0 4 5
+sprite 34 18 87 0 2 5
+sprite 35 18 87 0 4 5
+sprite 37 18 87 0 2 5
+sprite 41 18 87 0 4 5
+sprite 21 21 86 0 2 5
+sprite 22 32 86 0 4 5
+sprite 23 24 96 0 0 5
+sprite 28 31 96 0 2 5
+sprite 32 13 87 0 0 5
+sprite 39 13 87 0 2 5
+sprite 32 8  87 0 4 5
+sprite 32 3  86 0 2 5
+sprite 38 3  86 0 4 5
+sprite 38 6  96 0 0 5
+sprite 42 8  96 0 2 5
+sprite 39 9  96 0 0 5
+sprite 35 7  86 0 0 5
+sprite 35 9  86 0 0 5
+sprite 37 7  86 0 4 5
+sprite 37 9  86 0 2 5
+sprite 35 11 96 0 1 5
+rem ******************monsters generators**************
+trigger 57 55 50
+areatrigger 49 49 49 50 51 1
+areatrigger 22 49 22 50 52 1
+trigger 14 57 53
+trigger 44 21 54
+spawn 7 46 53 206 0 0 5 0
+spawn 19 47 53 206 0 3 5 0
+spawn 28 43 53 211 0 4 5 0
+spawn 29 40 52 206 0 1 5 0
+spawn 42 41 51 206 0 1 5 0
+spawn 55 48 50 206 0 1 5 0
+spawn 62 49 50 206 0 4 5 0
+spawn 31 24 54 206 0 0 5 0
+spawn 41 22 54 206 0 2 5 0
+sprite 36 32 206 0 3 5
+sprite 57 44 206 0 3 5
+sprite 17 54 211 0 4 5
+sprite 47 20 206 0 3 5
+end of file
+

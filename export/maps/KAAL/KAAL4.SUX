@@ -1,0 +1,321 @@
+rem ****************** Kaal 4 ***********************
+rem ************** level specifics ******************
+levelscore 110000
+bonustime 30
+primary 0 70000 1 11
+secondary 0 15000 2 14
+secondary 1 15000 2 11
+forceload kman 56
+forceload kfem 56
+forceload kprob 48
+forceload kbot 48
+rem ***********************************************
+rem *****************Enemys************************
+rem hybernation chambers west
+sprite 31 57 202 0 0 5
+sprite 31 55 202 0 0 5
+sprite 31 53 202 0 0 5
+sprite 31 51 202 0 0 5
+sprite 27 57 202 0 0 5
+sprite 27 55 202 0 0 5
+sprite 27 53 202 0 0 5
+sprite 27 51 202 0 0 5
+sprite 31 46 202 0 0 5
+sprite 31 44 202 0 0 5
+sprite 31 42 202 0 0 5
+sprite 31 40 202 0 0 5
+sprite 31 38 202 0 0 5
+sprite 27 46 202 0 0 5
+sprite 27 44 202 0 0 5
+sprite 27 42 202 0 0 5
+sprite 27 40 202 0 0 5
+sprite 27 38 202 0 0 5
+sprite 21 46 202 0 0 5
+sprite 21 44 202 0 0 5
+sprite 21 42 202 0 0 5
+sprite 21 40 202 0 0 5
+sprite 21 38 202 0 0 5
+sprite 17 46 202 0 0 5
+sprite 17 44 202 0 0 5
+sprite 17 42 202 0 0 5
+sprite 17 40 202 0 0 5
+sprite 17 38 202 0 0 5
+sprite 21 57 202 0 0 5
+sprite 21 55 202 0 0 5
+sprite 21 53 202 0 0 5
+sprite 21 51 202 0 0 5
+sprite 17 57 202 0 0 5
+sprite 17 55 202 0 0 5
+sprite 17 53 202 0 0 5
+sprite 17 51 202 0 0 5
+rem hybernation chambers north
+sprite 56 32 202 0 0 5
+sprite 54 32 202 0 0 5
+sprite 52 32 202 0 0 5
+sprite 50 32 202 0 0 5
+sprite 56 28 202 0 0 5
+sprite 54 28 202 0 0 5
+sprite 52 28 202 0 0 5
+sprite 50 28 202 0 0 5
+sprite 45 28 202 0 0 5
+sprite 43 28 202 0 0 5
+sprite 41 28 202 0 0 5
+sprite 39 28 202 0 0 5
+sprite 37 28 202 0 0 5
+sprite 45 32 202 0 0 5
+sprite 43 32 202 0 0 5
+sprite 41 32 202 0 0 5
+sprite 39 32 202 0 0 5
+sprite 37 32 202 0 0 5
+sprite 45 18 202 0 0 5
+sprite 43 18 202 0 0 5
+sprite 41 18 202 0 0 5
+sprite 39 18 202 0 0 5
+sprite 37 18 202 0 0 5
+sprite 45 22 202 0 0 5
+sprite 43 22 202 0 0 5
+sprite 41 22 202 0 0 5
+sprite 39 22 202 0 0 5
+sprite 37 22 202 0 0 5
+sprite 56 18 202 0 0 5
+sprite 54 18 202 0 0 5
+sprite 52 18 202 0 0 5
+sprite 50 18 202 0 0 5
+sprite 56 22 202 0 0 5
+sprite 54 22 202 0 0 5
+sprite 52 22 202 0 0 5
+sprite 50 22 202 0 0 5
+rem north hall enemies
+sprite 31 19 75 0 3 5
+sprite 31 17 77 0 0 5
+sprite 33 17 75 0 1 5
+sprite 60 19 77 0 4 5
+sprite 60 21 75 0 5 5
+rem west hall enemies
+sprite 27 60 75 0 0 5
+sprite 27 61 77 0 1 5
+sprite 28 62 75 0 2 5
+sprite 30 62 75 0 3 5
+sprite 21 32 77 0 0 5
+sprite 22 32 75 0 1 5
+sprite 16 32 75 0 2 5
+sprite 17 32 75 0 3 5
+sprite 15 61 77 0 3 5
+sprite 15 59 75 0 4 5
+sprite 22 59 75 0 4 5
+sprite 22 61 77 0 5 5
+rem center enemies
+sprite 58 41 75 0 0 5
+sprite 58 44 75 0 2 5
+sprite 38 39 75 0 2 5
+sprite 43 39 77 0 0 5
+sprite 45 39 75 0 4 5
+sprite 48 29 75 0 1 5
+sprite 52 40 77 0 1 5
+sprite 52 45 75 0 2 5
+sprite 48 51 75 0 3 5
+sprite 44 53 77 0 2 5
+sprite 39 53 75 0 1 5
+sprite 38 48 75 0 5 5
+sprite 35 57 75 0 3 5
+sprite 37 57 77 0 4 5
+rem ***********************************************
+rem ****************Wall Switches******************
+rem secret stairs south
+trigger 41 59 1
+trigger 42 59 1
+mapzone 41 58 42 58 1 2 8 1 3 1
+mapzone 41 58 42 58 1 0 9 128 3 1
+mapzone 41 57 42 57 2 0 8 16 3 1
+mapzone 41 56 42 56 2 0 8 32 2 1
+mapzone 41 55 42 55 2 0 8 48 1 1
+rem secret stairs east
+trigger 58 42 3
+trigger 58 43 3
+mapzone 57 42 57 43 3 4 8 1 3 1
+mapzone 57 42 57 43 3 0 9 128 3 1
+mapzone 56 42 56 43 4 0 8 16 3 1
+mapzone 55 42 55 43 4 0 8 32 2 1
+mapzone 54 42 54 43 4 0 8 48 1 1
+rem hybernation chambers west
+areatrigger 28 56 30 57 5
+mapzone 31 57 31 57 5 0 8 0 2 1
+mapzone 31 55 31 55 5 0 8 0 2 1
+mapzone 31 53 31 53 5 0 8 0 2 1
+mapzone 31 51 31 51 5 0 8 0 2 1
+mapzone 27 57 27 57 5 0 8 0 2 1
+mapzone 27 55 27 55 5 0 8 0 2 1
+mapzone 27 53 27 53 5 0 8 0 2 1
+mapzone 27 51 27 51 5 0 8 0 2 1
+areatrigger 28 45 30 46 6
+mapzone 31 46 31 46 6 0 8 0 2 1
+mapzone 31 44 31 44 6 0 8 0 2 1
+mapzone 31 42 31 42 6 0 8 0 2 1
+mapzone 31 40 31 40 6 0 8 0 2 1
+mapzone 31 38 31 38 6 0 8 0 2 1
+mapzone 27 46 27 46 6 0 8 0 2 1
+mapzone 27 44 27 44 6 0 8 0 2 1
+mapzone 27 42 27 42 6 0 8 0 2 1
+mapzone 27 40 27 40 6 0 8 0 2 1
+mapzone 27 38 27 38 6 0 8 0 2 1
+areatrigger 18 37 20 38 7
+mapzone 21 46 21 46 7 0 8 0 2 1
+mapzone 21 44 21 44 7 0 8 0 2 1
+mapzone 21 42 21 42 7 0 8 0 2 1
+mapzone 21 40 21 40 7 0 8 0 2 1
+mapzone 21 38 21 38 7 0 8 0 2 1
+mapzone 17 46 17 46 7 0 8 0 2 1
+mapzone 17 44 17 44 7 0 8 0 2 1
+mapzone 17 42 17 42 7 0 8 0 2 1
+mapzone 17 40 17 40 7 0 8 0 2 1
+mapzone 17 38 17 38 7 0 8 0 2 1
+areatrigger 18 50 20 51 8
+mapzone 21 57 21 57 8 0 8 0 2 1
+mapzone 21 55 21 55 8 0 8 0 2 1
+mapzone 21 53 21 53 8 0 8 0 2 1
+mapzone 21 51 21 51 8 0 8 0 2 1
+mapzone 17 57 17 57 8 0 8 0 2 1
+mapzone 17 55 17 55 8 0 8 0 2 1
+mapzone 17 53 17 53 8 0 8 0 2 1
+mapzone 17 51 17 51 8 0 8 0 2 1
+rem hybernation chambers north
+areatrigger 55 29 56 31 9
+mapzone 56 32 56 32 9 0 8 0 2 1
+mapzone 54 32 54 32 9 0 8 0 2 1
+mapzone 52 32 52 32 9 0 8 0 2 1
+mapzone 50 32 50 32 9 0 8 0 2 1
+mapzone 56 28 56 28 9 0 8 0 2 1
+mapzone 54 28 54 28 9 0 8 0 2 1
+mapzone 52 28 52 28 9 0 8 0 2 1
+mapzone 50 28 50 28 9 0 8 0 2 1
+areatrigger 44 29 45 31 10
+mapzone 45 28 45 28 10 0 8 0 2 1
+mapzone 43 28 43 28 10 0 8 0 2 1
+mapzone 41 28 41 28 10 0 8 0 2 1
+mapzone 39 28 39 28 10 0 8 0 2 1
+mapzone 37 28 37 28 10 0 8 0 2 1
+mapzone 45 32 45 32 10 0 8 0 2 1
+mapzone 43 32 43 32 10 0 8 0 2 1
+mapzone 41 32 41 32 10 0 8 0 2 1
+mapzone 39 32 39 32 10 0 8 0 2 1
+mapzone 37 32 37 32 10 0 8 0 2 1
+areatrigger 37 19 38 21 11
+mapzone 45 18 45 18 11 0 8 0 2 1
+mapzone 43 18 43 18 11 0 8 0 2 1
+mapzone 41 18 41 18 11 0 8 0 2 1
+mapzone 39 18 39 18 11 0 8 0 2 1
+mapzone 37 18 37 18 11 0 8 0 2 1
+mapzone 45 22 45 22 11 0 8 0 2 1
+mapzone 43 22 43 22 11 0 8 0 2 1
+mapzone 41 22 41 22 11 0 8 0 2 1
+mapzone 39 22 39 22 11 0 8 0 2 1
+mapzone 37 22 37 22 11 0 8 0 2 1
+areatrigger 50 19 51 21 12
+mapzone 56 18 56 18 12 0 8 0 2 1
+mapzone 54 18 54 18 12 0 8 0 2 1
+mapzone 52 18 52 18 12 0 8 0 2 1
+mapzone 50 18 50 18 12 0 8 0 2 1
+mapzone 56 22 56 22 12 0 8 0 2 1
+mapzone 54 22 54 22 12 0 8 0 2 1
+mapzone 52 22 52 22 12 0 8 0 2 1
+mapzone 50 22 50 22 12 0 8 0 2 1
+raise hybernation chamber west
+wallswitch 10 60 14
+mapzone 31 57 31 57 14 0 8 128 2 1
+mapzone 31 55 31 55 14 0 8 128 2 1
+mapzone 31 53 31 53 14 0 8 128 2 1
+mapzone 31 51 31 51 14 0 8 128 2 1
+mapzone 27 57 27 57 14 0 8 128 2 1
+mapzone 27 55 27 55 14 0 8 128 2 1
+mapzone 27 53 27 53 14 0 8 128 2 1
+mapzone 27 51 27 51 14 0 8 128 2 1
+mapzone 31 46 31 46 14 0 8 128 2 1
+mapzone 31 44 31 44 14 0 8 128 2 1
+mapzone 31 40 31 40 14 0 8 128 2 1
+mapzone 31 38 31 38 14 0 8 128 2 1
+mapzone 27 46 27 46 14 0 8 128 2 1
+mapzone 27 44 27 44 14 0 8 128 2 1
+mapzone 27 42 27 42 14 0 8 128 2 1
+mapzone 27 40 27 40 14 0 8 128 2 1
+mapzone 27 38 27 38 14 0 8 128 2 1
+mapzone 21 46 21 46 14 0 8 128 2 1
+mapzone 21 44 21 44 14 0 8 128 2 1
+mapzone 21 42 21 42 14 0 8 128 2 1
+mapzone 21 40 21 40 14 0 8 128 2 1
+mapzone 21 38 21 38 14 0 8 128 2 1
+mapzone 17 46 17 46 14 0 8 128 2 1
+mapzone 17 44 17 44 14 0 8 128 2 1
+mapzone 17 42 17 42 14 0 8 128 2 1
+mapzone 17 40 17 40 14 0 8 128 2 1
+mapzone 17 38 17 38 14 0 8 128 2 1
+mapzone 21 57 21 57 14 0 8 128 2 1
+mapzone 21 55 21 55 14 0 8 128 2 1
+mapzone 21 53 21 53 14 0 8 128 2 1
+mapzone 21 51 21 51 14 0 8 128 2 1
+mapzone 17 57 17 57 14 0 8 128 2 1
+mapzone 17 55 17 55 14 0 8 128 2 1
+mapzone 17 53 17 53 14 0 8 128 2 1
+mapzone 17 51 17 51 14 0 8 128 2 1
+raise hybernation chamber north
+wallswitch 28 18 15
+mapzone 56 32 56 32 15 0 8 128 2 1
+mapzone 54 32 54 32 15 0 8 128 2 1
+mapzone 52 32 52 32 15 0 8 128 2 1
+mapzone 50 32 50 32 15 0 8 128 2 1
+mapzone 56 28 56 28 15 0 8 128 2 1
+mapzone 54 28 54 28 15 0 8 128 2 1
+mapzone 52 28 52 28 15 0 8 128 2 1
+mapzone 50 28 50 28 15 0 8 128 2 1
+mapzone 45 28 45 28 15 0 8 128 2 1
+mapzone 43 28 43 28 15 0 8 128 2 1
+mapzone 41 28 41 28 15 0 8 128 2 1
+mapzone 39 28 39 28 15 0 8 128 2 1
+mapzone 37 28 37 28 15 0 8 128 2 1
+mapzone 45 32 45 32 15 0 8 128 2 1
+mapzone 43 32 43 32 15 0 8 128 2 1
+mapzone 39 32 39 32 15 0 8 128 2 1
+mapzone 37 32 37 32 15 0 8 128 2 1
+mapzone 45 18 45 18 15 0 8 128 2 1
+mapzone 43 18 43 18 15 0 8 128 2 1
+mapzone 41 18 41 18 15 0 8 128 2 1
+mapzone 39 18 39 18 15 0 8 128 2 1
+mapzone 37 8 37 18 15 0 8 128 2 1
+mapzone 45 22 45 22 15 0 8 128 2 1
+mapzone 43 22 43 22 15 0 8 128 2 1
+mapzone 41 22 41 22 15 0 8 128 2 1
+mapzone 39 22 39 22 15 0 8 128 2 1
+mapzone 37 22 37 22 15 0 8 128 2 1
+mapzone 56 18 56 18 15 0 8 128 2 1
+mapzone 54 18 54 18 15 0 8 128 2 1
+mapzone 52 18 52 18 15 0 8 128 2 1
+mapzone 50 18 50 18 15 0 8 128 2 1
+mapzone 56 22 56 22 15 0 8 128 2 1
+mapzone 54 22 54 22 15 0 8 128 2 1
+mapzone 52 22 52 22 15 0 8 128 2 1
+mapzone 50 22 50 22 15 0 8 128 2 1
+rem lights and control room effects
+trigger 38 42 17
+trigger 41 39 17
+mapzone 39 40 48 49 17 18 14 100 7 1
+mapzone 42 41 45 41 18 0 14 63 8 1
+mapzone 47 43 47 46 18 0 14 63 8 1
+mapzone 42 48 45 48 18 0 14 63 8 1
+mapzone 40 43 40 46 18 0 14 63 8 1
+mapzone 43 44 44 45 18 19 9 192 6 1
+mapzone 43 44 44 45 19 20 14 53 8 1
+mapzone 38 39 38 41 20 0 14 63 7 1
+mapzone 38 39 40 39 20 0 14 63 7 1
+mapzone 47 39 48 39 20 0 14 63 7 1
+mapzone 48 49 50 51 20 0 14 63 7 1
+mapzone 38 48 38 49 20 0 14 63 7 1
+mapzone 43 39 45 39 20 0 14 63 7 1
+rem lower primary item trigger
+wallswitch 25 60 22
+mapzone 50 51 50 51 22 0 8 74 7 1
+rem lower primary item
+trigger 50 51 21
+mapzone 43 44 44 45 21 0 8 48 1 1
+spawnsound 50 51 21 45 1
+spawnsound 50 51 21 45 1
+spawnsound 50 51 21 45 1
+END

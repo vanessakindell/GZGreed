@@ -1,0 +1,233 @@
+rem ****************** Kaal 3 ***********************
+rem ************** level specifics ******************
+levelscore 90000
+bonustime 40
+primary 0 60000 1 12
+secondary 0 10000 2 10
+secondary 1 10000 2 15
+forceload kman 56
+forceload kfem 56
+rem ***********************************************
+rem *****************Enemys************************
+sprite 11 22 200 0 0 5
+sprite 20 22 200 0 0 5
+sprite 14 6 201 0 0 5
+sprite 17 3 75 0 0 5
+sprite 17 30 75 0 0 5
+sprite 7 27 77 0 0 5
+sprite 47 34 75 0 0 5
+sprite 32 27 75 0 0 5
+sprite 42 27 77 0 0 5
+sprite 35 12 200 0 0 5
+sprite 56 8 75 0 0 5
+sprite 38 6 78 0 0 5
+sprite 58 2 200 0 0 5
+sprite 54 21 201 0 0 5
+sprite 60 23 75 0 0 5
+sprite 57 35 77 0 0 5
+sprite 47 54 75 0 0 5
+sprite 55 45 75 0 0 5
+sprite 56 60 77 0 0 5
+sprite 18 37 75 0 0 5
+sprite 33 42 75 0 0 5
+sprite 20 49 77 0 0 5
+sprite 30 49 200 0 0 5
+sprite 17 54 76 0 0 5
+sprite 52 60 76 0 0 5
+sprite 18 56 77 0 0 5
+sprite 19 61 75 0 0 5
+sprite 24 60 75 0 0 5
+sprite 30 62 75 0 0 5
+sprite 37 61 201 0 0 5
+sprite 41 58 75 0 0 5
+sprite 48 58 201 0 0 5
+sprite 13 42 75 0 0 5
+sprite 3 36 77 0 0 5
+sprite 3 18 200 0 0 5
+sprite 11 21 77 0 1 5
+sprite 20 21 75 0 1 5
+sprite 17 6 77 0 1 5
+sprite 18 30 200 0 1 5
+sprite 37 34 75 0 1 5
+sprite 45 34 77 0 1 5
+sprite 40 35 200 0 1 5
+sprite 40 27 75 0 1 5
+sprite 50 27 77 0 1 5
+sprite 54 25 200 0 1 5
+sprite 32 12 75 0 1 5
+sprite 44 10 201 0 1 5
+sprite 54 5 75 0 1 5
+sprite 49 54 78 0 1 5
+sprite 18 38 75 0 1 5
+sprite 28 49 75 0 1 5
+sprite 38 49 77 0 1 5
+sprite 36 62 76 0 1 5
+sprite 24 54 75 0 1 5
+sprite 30 54 201 0 1 5
+sprite 38 54 75 0 1 5
+sprite 44 62 75 0 1 5
+sprite 51 58 201 0 1 5
+sprite 15 42 75 0 1 5
+sprite 1 25 77 0 1 5
+sprite 11 20 75 0 2 5
+sprite 20 20 77 0 2 5
+sprite 14 2 76 0 2 5
+sprite 7 30 75 0 2 5
+sprite 17 31 75 0 2 5
+sprite 27 32 201 0 2 5
+sprite 35 34 200 0 2 5
+sprite 41 35 75 0 2 5
+sprite 32 19 77 0 2 5
+sprite 42 19 75 0 2 5
+sprite 31 15 200 0 2 5
+sprite 40 9 77 0 2 5
+sprite 48 12 75 0 2 5
+sprite 58 1 77 0 2 5
+sprite 55 20 200 0 2 5
+sprite 55 26 201 0 2 5
+sprite 52 3 75 0 2 5
+sprite 54 37 75 0 2 5
+sprite 43 44 75 0 2 5
+sprite 59 52 77 0 2 5
+sprite 37 38 75 0 2 5
+sprite 35 42 200 0 2 5
+sprite 20 45 77 0 2 5
+sprite 30 45 75 0 2 5
+sprite 29 62 76 0 2 5
+sprite 4 15 200 0 2 5
+sprite 22 10 75 0 3 5
+sprite 4 10 75 0 3 5
+sprite 14 3 75 0 3 5
+sprite 17 2 76 0 3 5
+sprite 19 6 76 0 3 5
+sprite 29 26 75 0 3 5
+sprite 42 35 77 0 3 5
+sprite 40 19 75 0 3 5
+sprite 50 19 77 0 3 5
+sprite 57 20 200 0 3 5
+sprite 57 26 77 0 3 5
+sprite 60 22 75 0 3 5
+sprite 40 15 75 0 3 5
+sprite 42 6 77 0 3 5
+sprite 52 1 75 0 3 5
+sprite 60 28 77 0 3 5
+sprite 43 52 75 0 3 5
+sprite 54 52 77 0 3 5
+sprite 37 40 200 0 3 5
+sprite 23 42 77 0 3 5
+sprite 28 45 77 0 3 5
+sprite 38 45 75 0 3 5
+sprite 18 59 78 0 3 5
+sprite 5 18 75 0 3 5
+sprite 7 9 77 0 4 5
+sprite 4 11 75 0 4 5
+sprite 12 6 76 0 4 5
+sprite 14 4 201 0 4 5
+sprite 12 1 76 0 4 5
+sprite 10 26 75 0 4 5
+sprite 29 27 75 0 4 5
+sprite 36 23 75 0 4 5
+sprite 46 23 200 0 4 5
+sprite 31 8 76 0 4 5
+sprite 41 15 75 0 4 5
+sprite 53 11 75 0 4 5
+sprite 56 5 75 0 4 5
+sprite 58 21 75 0 4 5
+sprite 58 25 75 0 4 5
+sprite 61 29 75 0 4 5
+sprite 50 44 75 0 4 5
+sprite 43 53 75 0 4 5
+sprite 55 62 75 0 4 5
+sprite 28 38 75 0 4 5
+sprite 25 42 75 0 4 5
+sprite 21 43 75 0 4 5
+sprite 31 43 75 0 4 5
+sprite 7 15 75 0 4 5
+sprite 4 40 75 0 4 5
+sprite 7 11 75 0 5 5
+sprite 4 9 75 0 5 5
+sprite 19 1 78 0 5 5
+sprite 17 4 75 0 5 5
+sprite 10 31 75 0 5 5
+sprite 34 17 75 0 5 5
+sprite 38 17 201 0 5 5
+sprite 44 17 200 0 5 5
+sprite 48 17 77 0 5 5
+sprite 29 9 76 0 5 5
+sprite 29 8 76 0 5 5
+sprite 36 6 76 0 5 5
+sprite 42 15 77 0 5 5
+sprite 53 10 75 0 5 5
+sprite 56 1 77 0 5 5
+sprite 58 3 75 0 5 5
+sprite 52 23 75 0 5 5
+sprite 57 23 77 0 5 5
+sprite 60 24 75 0 5 5
+sprite 48 39 75 0 5 5
+sprite 60 24 77 0 5 5
+sprite 54 47 75 0 5 5
+sprite 54 51 77 0 5 5
+sprite 30 38 75 0 5 5
+sprite 27 43 75 0 5 5
+sprite 37 43 77 0 5 5
+sprite 45 62 76 0 5 5
+sprite 8 44 75 0 5 5
+sprite 3 24 77 0 5 5
+rem ***********************************************
+rem *************Activation Triggers***************
+areatrigger 14 18 17 18 100
+activationzone 18 20 20 22 100 1
+activationzone 11 20 19 22 100 1
+mapzone 13 20 13 22 100 0 8 0 8 1
+mapzone 18 20 18 22 100 0 8 0 8 1
+areatrigger 15 12 16 13 101
+activationzone 2 8 23 18 101 1
+areatrigger 15 24 16 24 102
+activationzone 6 25 30 35 102 1
+areatrigger 27 29 29 29 103
+activationzone 32 25 55 35 103 1
+
+activationzone 48 0 61 10 105 1
+areatrigger 59 34 60 34 106
+
+activationzone 52 36 62 43 106 1
+areatrigger 54 41 59 41 107
+activationzone 45 39 55 48 107 1
+areatrigger 42 47 49 47 108
+activationzone 41 47 52 55 108 1
+areatrigger 52 60 52 62 109
+activationzone 52 44 61 62 109 1
+areatrigger 35 30 37 30 110
+mapzone 35 29 37 29 110 0 8 0 3 1
+areatrigger 45 30 47 30 111
+mapzone 45 29 47 29 111 0 8 0 3 1
+areatrigger 13 37 15 37 112
+activationzone 16 37 37 40 112 1
+areatrigger 23 41 25 41 113
+activationzone 19 42 29 53 113 1
+areatrigger 33 41 25 41 114
+activationzone 29 42 41 53 114 1
+areatrigger 21 53 37 53 115
+activationzone 17 54 52 62 115 1
+areatrigger 10 42 10 44 116
+activationzone 2 34 10 45 116 1
+areatrigger 5 37 6 37 117
+activationzone 0 15 8 36 117 1
+rem ***********************************************
+rem ****************Wall Switches******************
+wallswitch 59 3 1
+mapzone 56 29 56 30 1 0 8 0 8 1
+wallswitch 52 37 2
+mapzone 23 41 25 41 2 0 0 0 8 1
+mapzone 33 41 35 41 2 0 0 0 8 1
+wallswitch 54 48 3
+mapzone 13 40 15 41 3 0 8 45 8 1
+wallswitch 6 18 4
+mapzone 14 7 17 7 4 0 8 0 1 1
+rem ***********************************************
+rem ****************Trash Chute********************
+trigger 2 31 5
+spawnsound 2 31 5 88 0
+spawnsound 2 31 5 88 0
+spawnfli 5 2
+END

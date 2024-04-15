@@ -1,0 +1,188 @@
+rem ****************** Kaal 5 ***********************
+rem ************** level specifics ******************
+levelscore 50000
+bonustime 60
+primary 0 10000 1 14
+forceload kprob 48
+forceload kbot 48
+rem ***********************************************
+rem *****************Enemys************************
+rem ***********************************************
+rem Front Hall
+sprite 39 20 79 0 4 5
+sprite 46 23 79 0 4 5
+sprite 38 27 202 0 0 5
+sprite 40 27 79 0 4 5
+sprite 43 27 79 0 5 5
+sprite 45 27 79 0 5 5
+sprite 48 27 202 0 4 5
+sprite 50 27 79 0 0 5
+sprite 39 28 79 0 2 5
+sprite 44 28 79 0 2 5
+sprite 49 28 79 0 0 5
+rem Side Pillar Room
+sprite 58 28 202 0 0 5
+sprite 57 26 79 0 3 5
+sprite 58 24 79 0 4 5
+sprite 56 18 79 0 1 5
+sprite 59 18 202 0 0 5
+sprite 56 14 79 0 0 5
+sprite 59 14 79 0 1 5
+sprite 56 10 79 0 2 5
+sprite 59 10 79 0 3 5
+sprite 54 9 202 0 4 5
+sprite 61 9 202 0 5 5
+rem Hallway One and Back Tunnel
+sprite 49 36 79 0 4 5
+sprite 50 35 79 0 5 5
+sprite 56 36 202 0 0 5
+sprite 56 38 79 0 2 5
+sprite 50 40 79 0 5 5
+sprite 53 41 202 0 1 5
+sprite 57 45 81 0 4 5
+sprite 59 45 81 0 4 5
+sprite 52 49 79 0 5 5
+sprite 56 49 79 0 4 5
+sprite 54 49 203 0 1 5
+sprite 54 55 81 0 3 5
+sprite 54 56 79 0 0 5
+sprite 61 54 202 0 5 5
+sprite 57 58 79 0 5 5
+sprite 61 58 81 0 5 5
+sprite 61 62 81 0 5 5
+sprite 54 62 79 0 5 5
+sprite 38 60 79 0 3 5
+sprite 35 62 202 0 0 5
+sprite 28 62 79 0 1 5
+sprite 18 61 81 0 4 5
+sprite 18 60 81 0 5 5
+sprite 27 57 79 0 5 5
+rem Hall Two and Marble Room
+sprite 44 35 79 0 0 5
+sprite 46 38 79 0 2 5
+sprite 44 38 81 0 5 5
+sprite 44 40 202 0 4 5
+sprite 43 44 79 0 1 5
+sprite 45 44 81 0 5 5
+sprite 46 53 81 0 5 5
+sprite 48 56 202 0 2 5
+sprite 48 58 79 0 1 5
+rem Four Way Room Complex and Stairs
+sprite 10 47 81 0 3 5
+sprite 10 52 81 0 4 5
+sprite 19 48 79 0 0 5
+sprite 19 51 202 0 1 5
+sprite 23 48 79 0 3 5
+sprite 23 51 79 0 4 5
+sprite 27 47 202 0 0 5
+sprite 32 47 79 0 1 5
+sprite 27 52 203 0 5 5
+sprite 32 52 203 0 4 5
+sprite 33 55 79 0 1 5
+sprite 35 56 79 0 0 5
+sprite 34 52 202 0 3 5
+sprite 35 47 81 0 4 5
+rem Spawn Room
+sprite 23 26 79 0 5 5
+sprite 25 27 79 0 4 5
+sprite 27 27 79 0 3 5
+sprite 29 27 202 0 4 5
+sprite 21 28 79 0 3 5
+sprite 20 32 79 0 0 5
+sprite 20 34 79 0 5 5
+sprite 18 35 202 0 4 5
+sprite 20 38 79 0 3 5
+sprite 19 40 79 0 5 5
+sprite 21 42 79 0 5 5
+sprite 23 41 202 0 3 5
+sprite 25 41 79 0 4 5
+sprite 27 41 79 0 5 5
+sprite 34 43 79 0 3 5
+sprite 36 43 202 0 4 5
+sprite 38 43 79 0 5 5
+sprite 44 40 79 0 4 5
+sprite 44 38 79 0 5 5
+sprite 39 35 203 0 0 5
+sprite 35 35 203 0 1 5
+sprite 32 34 79 0 5 5
+sprite 32 32 202 0 2 5
+sprite 32 30 79 0 0 5
+sprite 26 32 79 0 2 5
+sprite 25 33 202 0 1 5
+sprite 25 35 79 0 4 5
+sprite 25 37 79 0 3 5
+sprite 26 38 79 0 3 5
+sprite 27 37 79 0 0 5
+sprite 27 35 79 0 5 5
+sprite 27 33 79 0 1 5
+rem ***********************************************
+rem *******************Stuff***********************
+rem ***********************************************
+areatrigger 43 14 45 16 1
+mapzone 42 10 46 10 1 0 8 96 3 1
+mapzone 49 13 49 17 1 0 8 96 3 1
+mapzone 42 20 46 20 1 0 8 96 3 1
+mapzone 39 13 39 17 1 0 8 96 3 1
+rem lower walls to main level
+wallswitch 41 21 2
+mapzone 38 19 40 19 2 0 8 96 3 1
+mapzone 40 20 40 21 2 0 8 96 3 1
+mapzone 48 19 50 19 2 0 8 96 3 1
+mapzone 48 20 48 21 2 0 8 96 3 1
+mapzone 42 22 46 22 2 0 8 96 3 1
+rem lower stairs to main level
+wallswitch 47 21 3
+mapzone 37 20 39 20 3 0 8 80 3 1
+mapzone 37 20 39 20 3 0 9 208 3 1
+mapzone 39 21 39 22 3 0 8 80 3 1
+mapzone 39 21 39 22 3 0 9 208 3 1
+mapzone 49 20 51 20 3 0 8 80 3 1
+mapzone 49 20 51 20 3 0 9 208 3 1
+mapzone 49 21 49 22 3 0 8 80 3 1
+mapzone 49 21 49 22 3 0 9 208 3 1
+mapzone 37 21 38 21 3 0 8 64 3 1
+mapzone 37 21 38 21 3 0 9 192 3 1
+mapzone 38 22 38 22 3 0 8 64 3 1
+mapzone 38 22 38 22 3 0 9 192 3 1
+mapzone 50 22 50 22 3 0 8 64 3 1
+mapzone 50 22 50 22 3 0 9 192 3 1
+mapzone 50 21 51 21 3 0 8 64 3 1
+mapzone 50 21 51 21 3 0 9 192 3 1
+mapzone 37 22 37 22 3 0 8 48 3 1
+mapzone 37 22 37 22 3 0 9 176 3 1
+mapzone 51 22 51 22 3 0 8 48 3 1
+mapzone 51 22 51 22 3 0 9 176 3 1
+rem wall switches on stair elevators
+wallswitch 8 47 4
+mapzone 8 52 8 52 4 0 8 128 2 1
+mapzone 21 49 21 49 4 5 8 128 2 0
+mapzone 21 49 21 49 5 4 8 0 2 0
+wallswitch 8 52 6
+mapzone 8 47 8 47 6 0 8 128 2 1
+mapzone 21 50 21 50 6 7 8 128 2 0
+mapzone 21 50 21 50 7 6 8 0 2 0
+wallswitch 21 45 8
+mapzone 8 52 8 52 8 0 8 0 5 1
+wallswitch 21 54 9
+mapzone 8 47 8 47 9 0 8 0 5 1
+rem Stuff at Opening
+sprite 42 10 135 0 0 5
+sprite 46 10 135 0 0 5
+sprite 44 10 133 0 0 5
+sprite 49 13 134 0 0 5
+sprite 49 17 134 0 0 5
+sprite 49 15 133 0 0 5
+sprite 42 20 135 0 4 5
+sprite 46 20 135 0 4 5
+sprite 44 20 133 0 4 5
+sprite 39 13 134 0 0 5
+sprite 39 17 134 0 0 5
+sprite 39 15 133 0 0 5
+sprite 52 55 135 0 0 5
+sprite 20 45 134 0 0 5
+sprite 22 45 135 0 0 5
+sprite 19 42 135 0 0 5
+sprite 17 35 134 0 0 5
+sprite 50 50 135 0 0 5
+sprite 57 62 135 0 0 5
+END
